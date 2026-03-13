@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://idrisskacem.com/sitemap.xml
