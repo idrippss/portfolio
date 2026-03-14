@@ -18,14 +18,11 @@ const sections = [
     eventUrl: ggj2024Url,
     eventLabel: 'Official Event Link',
     images: [
-<<<<<<< HEAD
       '/volunteering/FREAKS/ggj/1.jpg',
       '/volunteering/FREAKS/ggj/23.jpg',
       '/volunteering/FREAKS/ggj/26.jpg',
       '/volunteering/FREAKS/ggj/29.jpg',
-=======
       '/volunteering/FREAKS/ggj/ggj2/aff%20fin.jpg',
->>>>>>> d9bcac4236e40040ad1a9869add76e16d7c13892
       '/volunteering/FREAKS/ggj/329139084_626511989237527_855965577313854795_n.jpg',
       '/volunteering/FREAKS/ggj/329320469_1337594750396540_2959170249055901479_n.jpg',
       '/volunteering/FREAKS/ggj/329323581_718805019912014_8695160962756338939_n.jpg',
@@ -34,7 +31,6 @@ const sections = [
       '/volunteering/FREAKS/ggj/329362069_1802676920119279_7395283700356569946_n.jpg',
       '/volunteering/FREAKS/ggj/329367894_538575951669852_5118681104651626151_n.jpg',
       '/volunteering/FREAKS/ggj/329369503_876984823621540_4979543212368301787_n.jpg',
-<<<<<<< HEAD
       '/volunteering/FREAKS/ggj/34.jpg',
       '/volunteering/FREAKS/ggj/35.jpg',
       '/volunteering/FREAKS/ggj/36.jpg',
@@ -48,8 +44,7 @@ const sections = [
       '/volunteering/FREAKS/ggj/ggj%20timeline%20media%20post%20day1.jpg',
       '/volunteering/FREAKS/ggj/ggj%20timeline%20media%20post%20day2.jpg',
       '/volunteering/FREAKS/ggj/TIK%20BREAKFAST.jpg',
-      '/volunteering/FREAKS/ggj/TIK%20COFFE%20BREAK.jpg'
-=======
+      '/volunteering/FREAKS/ggj/TIK%20COFFE%20BREAK.jpg',
       '/volunteering/FREAKS/ggj/493404330_24241627028771006_5978041378773387223_n%20(1).jpg',
       '/volunteering/FREAKS/ggj/ggj2/ggj%20banner%201.jpg',
       '/volunteering/FREAKS/ggj/ggj2/ggj%20media%20post.jpg',
@@ -60,7 +55,6 @@ const sections = [
       '/volunteering/FREAKS/ggj/ggj2/TIK%20BREAKFAST.jpg',
       '/volunteering/FREAKS/ggj/ggj2/TIK%20COFFE%20BREAK.jpg',
       '/volunteering/FREAKS/ggj/ggj2/TIK%20DINNER.jpg'
->>>>>>> d9bcac4236e40040ad1a9869add76e16d7c13892
     ]
   },
   {
@@ -286,11 +280,8 @@ const GamingFreaksProjectPage = () => {
                         )}
 
                         {totalImages > 1 && (
-<<<<<<< HEAD
-                          <div className="flex flex-wrap items-center justify-center gap-2 pb-1">
-=======
+
                           <div className="flex items-center justify-center gap-2 overflow-x-auto pb-1 hide-scrollbar">
->>>>>>> d9bcac4236e40040ad1a9869add76e16d7c13892
                             {section.images.map((image, index) => (
                               <button
                                 key={`${section.key}-thumb-${image}`}
