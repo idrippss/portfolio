@@ -81,34 +81,30 @@ const VolunteeringPage = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {projects.map((project) => (
+              {projects.map(({ id, title, description, thumbnail, category, year, path }) => (
                 <div
-                  key={project.id}
-                  className={`group bg-[#252525] rounded-xl overflow-hidden border border-[#333] transition-all duration-300 hover:shadow-[0_0_20px_rgba(0,212,255,0.15)] ${
-                    project.path ? 'cursor-pointer hover:border-[#00d4ff] hover:-translate-y-1' : 'hover:border-[#00d4ff]'
-                  }`}
+                  key={id}
+                  className="group cursor-pointer bg-[#252525] rounded-xl overflow-hidden border border-[#333] transition-all duration-300 hover:border-[#00d4ff] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,212,255,0.15)]"
                 >
-                  <Link to={project.path || '#'} onClick={(e) => !project.path && e.preventDefault()} className="block">
-                    <div className={`relative aspect-video overflow-hidden ${project.logoCard ? `${project.logoBg || 'bg-black'} flex items-center justify-center p-6` : ''}`}>
+                  <Link to={path} className="block">
+                    <div className="relative aspect-video overflow-hidden bg-black flex items-center justify-center p-6">
                       <img
-                        src={project.thumbnail}
-                        alt={project.title}
-                        className={`w-full h-full transition-transform duration-500 ${project.logoCard ? 'object-contain' : 'object-cover group-hover:scale-110'}`}
+                        src={thumbnail}
+                        alt={title}
+                        className="w-full h-full object-contain"
                       />
                       <div className="absolute top-4 right-4 bg-black/60 backdrop-blur-sm px-3 py-1 rounded-full border border-white/10">
-                        <span className="text-xs font-medium text-[#00d4ff]">{project.category}</span>
+                        <span className="text-xs font-medium text-[#00d4ff]">{category}</span>
                       </div>
                     </div>
                     <div className="p-6">
                       <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#00d4ff] transition-colors">
-                        {project.title}
+                        {title}
                       </h3>
                       <p className="text-gray-400 text-sm leading-relaxed">
-                        {project.description}
+                        {description}
                       </p>
-                      {project.year && (
-                        <p className="text-xs text-gray-500 mt-3 tracking-widest uppercase">{project.year}</p>
-                      )}
+                      <p className="text-xs text-gray-500 mt-3 tracking-widest uppercase">{year}</p>
                     </div>
                   </Link>
                 </div>
