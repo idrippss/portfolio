@@ -41,6 +41,21 @@ const sections = [
     ]
   },
   {
+    key: 'launchpad-regional-challenge',
+    title: 'Launchpad Regional Challenge',
+    description:
+      'Regional teams attended hands-on workshops and pitched their projects during the challenge. In this event, I served as Organizer and Media Manager, handling coordination and visual communication assets before and during the competition.',
+    images: [
+      '/volunteering/enactus/launchpad/AFF.jpg',
+      '/volunteering/enactus/launchpad/COVER%20EVENT%20FINAL.jpg',
+      '/volunteering/enactus/launchpad/ORGA.jpg',
+      '/volunteering/enactus/launchpad/PARTI.jpg',
+      '/volunteering/enactus/launchpad/PHOTO%20DE%20PROFIL.jpg',
+      '/volunteering/enactus/launchpad/pitching.jpg',
+      '/volunteering/enactus/launchpad/TRAIN.jpg'
+    ]
+  },
+  {
     key: 'posters',
     title: 'Posters',
     description: 'Promotional posters developed for recruitment, event announcements, and educational campaigns.',

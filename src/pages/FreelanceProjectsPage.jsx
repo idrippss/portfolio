@@ -82,36 +82,6 @@ const projects = [
     path: '/freelance-projects/rebellion-live-band',
     logoCard: true,
     logoBg: 'bg-black'
-  },
-  {
-    id: 1,
-    title: 'Urban Streetwear Campaign',
-    description: 'Dynamic photo and video shoot for an emerging local streetwear brand.',
-    thumbnail: '/image/gallery/1.jpg',
-    category: 'Photography & Video',
-    year: null,
-    path: null,
-    logoCard: false
-  },
-  {
-    id: 2,
-    title: 'Indie Music Video',
-    description: 'Creative direction and cinematography for an independent artist.',
-    thumbnail: '/image/gallery/2.jpg',
-    category: 'Videography',
-    year: null,
-    path: null,
-    logoCard: false
-  },
-  {
-    id: 3,
-    title: 'Local Cafe Rebranding',
-    description: 'Product and interior photography for a boutique coffee shop.',
-    thumbnail: '/image/gallery/3.jpeg',
-    category: 'Photography',
-    year: null,
-    path: null,
-    logoCard: false
   }
 ];
 
@@ -162,7 +132,6 @@ const FreelanceProjectsPage = () => {
                     <div className={`relative aspect-video overflow-hidden ${project.logoCard ? `${project.logoBg || 'bg-black'} flex items-center justify-center p-6` : ''}`}>
                       <img
                         src={project.thumbnail}
-                        alt={project.title}
                         className={`w-full h-full transition-transform duration-500 ${project.logoCard ? 'object-contain' : 'object-cover group-hover:scale-110'}`}
                       />
                       <div className="absolute top-4 right-4 bg-black/60 backdrop-blur-sm px-3 py-1 rounded-full border border-white/10">

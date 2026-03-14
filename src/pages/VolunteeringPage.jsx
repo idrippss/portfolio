@@ -18,6 +18,39 @@ const projects = [
     path: '/volunteering/enactus-epi-sousse',
     logoCard: true,
     logoBg: 'bg-black'
+  },
+  {
+    id: 1,
+    title: 'Gaming Freaks',
+    description: 'Volunteer creative work for gaming events and communities, including flyers, badges, timetables, and Global Game Jam media assets.',
+    thumbnail: '/volunteering/FREAKS/log%20blanc.png',
+    category: 'Community Project',
+    year: '2023-2025',
+    path: '/volunteering/gaming-freaks',
+    logoCard: true,
+    logoBg: 'bg-black'
+  },
+  {
+    id: 2,
+    title: 'Club CAO EPI Sousse',
+    description: 'Creative and engineering-focused club work including mechanical design visuals, competition announcements, and training materials.',
+    thumbnail: '/volunteering/cao/273900379_1404317893333523_489239045069502224_n.gif',
+    category: 'University Club',
+    year: '2022-2023',
+    path: '/volunteering/cao',
+    logoCard: true,
+    logoBg: 'bg-black'
+  },
+  {
+    id: 3,
+    title: 'IEEE Student Branch',
+    description: 'Volunteer design, media, and communication support for IEEE Student Branch activities, events, and technical initiatives.',
+    thumbnail: '/volunteering/ieee/logoieee%20(2)%20(1).png',
+    category: 'Tech Community',
+    year: '2021-2024',
+    path: '/volunteering/ieee',
+    logoCard: true,
+    logoBg: 'bg-black'
   }
 ];
 

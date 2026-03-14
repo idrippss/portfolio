@@ -47,7 +47,7 @@ const ReelCard = ({ reel, onClick }) => {
 
 const reelsData = [
   { id: 1,  videoUrl: '/video/ah.mov',               title: 'ah' },
-  { id: 2,  videoUrl: '/video/ahh%20tesla.mov',       title: 'ahh tesla' },
+  { id: 2,  videoUrl: '/video/ahh%20tesla.mov',       title: 'video ah' },
   { id: 3,  videoUrl: '/video/azha.mov',              title: 'azha' },
   { id: 4,  videoUrl: '/video/golden%20fries.mov',    title: 'golden fries' },
   { id: 5,  videoUrl: '/video/golden.mov',            title: 'golden' },

@@ -12,6 +12,9 @@ import AhProjectPage from './pages/AhProjectPage.jsx';
 import RueDeLaModeProjectPage from './pages/RueDeLaModeProjectPage.jsx';
 import RebellionProjectPage from './pages/RebellionProjectPage.jsx';
 import EnactusProjectPage from './pages/EnactusProjectPage.jsx';
+import CaoProjectPage from './pages/CaoProjectPage.jsx';
+import GamingFreaksProjectPage from './pages/GamingFreaksProjectPage.jsx';
+import IeeeProjectPage from './pages/IeeeProjectPage.jsx';
 import RivezliProjectPage from './pages/RivezliProjectPage.jsx';
 import ProfessionalProjectsPage from './pages/ProfessionalProjectsPage.jsx';
 import VolunteeringPage from './pages/VolunteeringPage.jsx';
@@ -35,6 +38,9 @@ function App() {
         <Route path="/professional-projects/rivezli" element={<RivezliProjectPage />} />
         <Route path="/volunteering" element={<VolunteeringPage />} />
         <Route path="/volunteering/enactus-epi-sousse" element={<EnactusProjectPage />} />
+        <Route path="/volunteering/gaming-freaks" element={<GamingFreaksProjectPage />} />
+        <Route path="/volunteering/cao" element={<CaoProjectPage />} />
+        <Route path="/volunteering/ieee" element={<IeeeProjectPage />} />
       </Routes>
       <Toaster />
     </Router>
