@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import Header from '@/components/Header.jsx';
@@ -72,27 +71,19 @@ const VolunteeringPage = () => {
                 <span className="font-medium">Back to Projects</span>
               </Link>
             </div>
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="mb-16"
-            >
+            <div className="mb-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
                 Volunteering
               </h1>
               <p className="text-xl text-gray-400 max-w-3xl">
                 Community-driven initiatives, non-profit work, and impactful social projects aimed at making a positive difference through visual storytelling.
               </p>
-            </motion.div>
+            </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {projects.map((project, index) => (
-                <motion.div
+              {projects.map((project) => (
+                <div
                   key={project.id}
-                  initial={{ opacity: 0, y: 30 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: index * 0.1 }}
                   className={`group bg-[#252525] rounded-xl overflow-hidden border border-[#333] transition-all duration-300 hover:shadow-[0_0_20px_rgba(0,212,255,0.15)] ${
                     project.path ? 'cursor-pointer hover:border-[#00d4ff] hover:-translate-y-1' : 'hover:border-[#00d4ff]'
                   }`}
@@ -120,7 +111,7 @@ const VolunteeringPage = () => {
                       )}
                     </div>
                   </Link>
-                </motion.div>
+                </div>
               ))}
             </div>
           </div>
