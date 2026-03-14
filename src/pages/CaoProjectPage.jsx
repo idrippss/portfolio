@@ -13,11 +13,19 @@ const sections = [
     description:
       'CAO is a mechanical design club focused on creativity, engineering thinking, and hands-on learning. The club organizes 3D object modeling competitions and practical sessions where members train on conception tools, improve problem-solving skills, and turn technical ideas into concrete designs.',
     images: [
+<<<<<<< HEAD
       '/volunteering/cao/AFF3%20fFF.jpg',
       '/volunteering/cao/PROGFFG%20CARRE3FFFFF.jpg',
       '/volunteering/cao/316553316_3294470674136417_2198264595731019153_n.jpg',
       '/volunteering/cao/316667035_3294461774137307_6971661669032443986_n.jpg',
       '/volunteering/cao/317246102_3294464774137007_6563421949790245513_n.jpg'
+=======
+      '/volunteering/Cao/AFF3%20fFF.jpg',
+      '/volunteering/Cao/PROGFFG%20CARRE3FFFFF.jpg',
+      '/volunteering/Cao/316553316_3294470674136417_2198264595731019153_n.jpg',
+      '/volunteering/Cao/316667035_3294461774137307_6971661669032443986_n.jpg',
+      '/volunteering/Cao/317246102_3294464774137007_6563421949790245513_n.jpg'
+>>>>>>> d9bcac4236e40040ad1a9869add76e16d7c13892
     ]
   }
 ];
@@ -90,7 +98,11 @@ const CaoProjectPage = () => {
               <div className="mb-10 grid grid-cols-1 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] gap-8 items-center">
                 <div className="rounded-2xl p-8 bg-black/40 border border-[#2f2f2f]">
                   <img
+<<<<<<< HEAD
                     src="/volunteering/cao/273900379_1404317893333523_489239045069502224_n.gif"
+=======
+                    src="/volunteering/Cao/273900379_1404317893333523_489239045069502224_n.gif"
+>>>>>>> d9bcac4236e40040ad1a9869add76e16d7c13892
                     alt="Club CAO EPI Sousse logo"
                     className="w-full max-w-[280px] mx-auto h-auto object-contain"
                   />
@@ -138,6 +150,10 @@ const CaoProjectPage = () => {
                   >
                     <div className="mb-5">
                       <h2 className="text-2xl md:text-3xl font-bold text-white">{section.title}</h2>
+<<<<<<< HEAD
+=======
+                      <p className="text-gray-400 mt-1">{section.description}</p>
+>>>>>>> d9bcac4236e40040ad1a9869add76e16d7c13892
                     </div>
 
                     <div className="space-y-4">

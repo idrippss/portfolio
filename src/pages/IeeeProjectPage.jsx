@@ -56,6 +56,7 @@ const sections = [
     description:
       'Through the IEEE STAR Program, we visited a school with limited resources and spent the day with children through hands-on workshops, interactive activities, and educational games. The initiative aimed to make technology and learning more accessible, create joyful moments, and encourage curiosity, teamwork, and confidence in a supportive environment.',
     images: [
+<<<<<<< HEAD
       '/volunteering/ieee/school%20workshop/fin/IMG_2090.png',
       '/volunteering/ieee/school%20workshop/fin/IMG_2208.png',
       '/volunteering/ieee/school%20workshop/fin/IMG_2279.png',
@@ -63,6 +64,16 @@ const sections = [
       '/volunteering/ieee/school%20workshop/fin/IMG_2458.png',
       '/volunteering/ieee/school%20workshop/fin/IMG_4217.png',
       '/volunteering/ieee/school%20workshop/fin/IMG_4234.png'
+=======
+      '/volunteering/ieee/school%20workshop/IMG_2090.png',
+      '/volunteering/ieee/school%20workshop/IMG_2208.png',
+      '/volunteering/ieee/school%20workshop/IMG_2279.png',
+      '/volunteering/ieee/school%20workshop/IMG_2289.png',
+      '/volunteering/ieee/school%20workshop/IMG_2458.png',
+      '/volunteering/ieee/school%20workshop/IMG_4217.png',
+      '/volunteering/ieee/school%20workshop/IMG_4234.png',
+      '/volunteering/ieee/school%20workshop/IMG_4276.png'
+>>>>>>> d9bcac4236e40040ad1a9869add76e16d7c13892
     ],
     details: []
   }
@@ -340,11 +351,15 @@ const IeeeProjectPage = () => {
                               )}
 
                               {totalImages > 1 && (
+<<<<<<< HEAD
                                 <div
                                   className={`flex items-center justify-center gap-2 pb-1 ${
                                     section.key === 'events-overview' ? 'flex-wrap' : 'overflow-x-auto hide-scrollbar'
                                   }`}
                                 >
+=======
+                                <div className="flex items-center justify-center gap-2 overflow-x-auto pb-1 hide-scrollbar">
+>>>>>>> d9bcac4236e40040ad1a9869add76e16d7c13892
                                   {section.images.map((image, index) => (
                                     <button
                                       key={`${section.key}-thumb-${image}`}
