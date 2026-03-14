@@ -18,43 +18,43 @@ const sections = [
     eventUrl: ggj2024Url,
     eventLabel: 'Official Event Link',
     images: [
-      '/volunteering/FREAKS/ggj/1.jpg',
-      '/volunteering/FREAKS/ggj/23.jpg',
-      '/volunteering/FREAKS/ggj/26.jpg',
-      '/volunteering/FREAKS/ggj/29.jpg',
-      '/volunteering/FREAKS/ggj/ggj2/aff%20fin.jpg',
-      '/volunteering/FREAKS/ggj/329139084_626511989237527_855965577313854795_n.jpg',
-      '/volunteering/FREAKS/ggj/329320469_1337594750396540_2959170249055901479_n.jpg',
-      '/volunteering/FREAKS/ggj/329323581_718805019912014_8695160962756338939_n.jpg',
-      '/volunteering/FREAKS/ggj/329328808_745877423715247_6922803875405082604_n.jpg',
-      '/volunteering/FREAKS/ggj/329358466_1390145868465320_4168046337146391201_n.jpg',
-      '/volunteering/FREAKS/ggj/329362069_1802676920119279_7395283700356569946_n.jpg',
-      '/volunteering/FREAKS/ggj/329367894_538575951669852_5118681104651626151_n.jpg',
-      '/volunteering/FREAKS/ggj/329369503_876984823621540_4979543212368301787_n.jpg',
-      '/volunteering/FREAKS/ggj/34.jpg',
-      '/volunteering/FREAKS/ggj/35.jpg',
-      '/volunteering/FREAKS/ggj/36.jpg',
-      '/volunteering/FREAKS/ggj/37.jpg',
-      '/volunteering/FREAKS/ggj/40.jpg',
-      '/volunteering/FREAKS/ggj/493404330_24241627028771006_5978041378773387223_n.jpg',
-      '/volunteering/FREAKS/ggj/5.jpg',
-      '/volunteering/FREAKS/ggj/aff%20fin.jpg',
-      '/volunteering/FREAKS/ggj/ggj%20banner%201.jpg',
-      '/volunteering/FREAKS/ggj/ggj%20media%20post.jpg',
-      '/volunteering/FREAKS/ggj/ggj%20timeline%20media%20post%20day1.jpg',
-      '/volunteering/FREAKS/ggj/ggj%20timeline%20media%20post%20day2.jpg',
-      '/volunteering/FREAKS/ggj/TIK%20BREAKFAST.jpg',
-      '/volunteering/FREAKS/ggj/TIK%20COFFE%20BREAK.jpg',
-      '/volunteering/FREAKS/ggj/493404330_24241627028771006_5978041378773387223_n%20(1).jpg',
-      '/volunteering/FREAKS/ggj/ggj2/ggj%20banner%201.jpg',
-      '/volunteering/FREAKS/ggj/ggj2/ggj%20media%20post.jpg',
-      '/volunteering/FREAKS/ggj/ggj2/ggj%20timeline%20media%20post%20day1.jpg',
-      '/volunteering/FREAKS/ggj/ggj2/ggj%20timeline%20media%20post%20day2.jpg',
-      '/volunteering/FREAKS/ggj/ggj2/badge%20or.jpg',
-      '/volunteering/FREAKS/ggj/ggj2/badge%20jam.jpg',
-      '/volunteering/FREAKS/ggj/ggj2/TIK%20BREAKFAST.jpg',
-      '/volunteering/FREAKS/ggj/ggj2/TIK%20COFFE%20BREAK.jpg',
-      '/volunteering/FREAKS/ggj/ggj2/TIK%20DINNER.jpg'
+      '/associative%20projects/FREAKS/ggj/1.jpg',
+      '/associative%20projects/FREAKS/ggj/23.jpg',
+      '/associative%20projects/FREAKS/ggj/26.jpg',
+      '/associative%20projects/FREAKS/ggj/29.jpg',
+      '/associative%20projects/FREAKS/ggj/ggj2/aff%20fin.jpg',
+      '/associative%20projects/FREAKS/ggj/329139084_626511989237527_855965577313854795_n.jpg',
+      '/associative%20projects/FREAKS/ggj/329320469_1337594750396540_2959170249055901479_n.jpg',
+      '/associative%20projects/FREAKS/ggj/329323581_718805019912014_8695160962756338939_n.jpg',
+      '/associative%20projects/FREAKS/ggj/329328808_745877423715247_6922803875405082604_n.jpg',
+      '/associative%20projects/FREAKS/ggj/329358466_1390145868465320_4168046337146391201_n.jpg',
+      '/associative%20projects/FREAKS/ggj/329362069_1802676920119279_7395283700356569946_n.jpg',
+      '/associative%20projects/FREAKS/ggj/329367894_538575951669852_5118681104651626151_n.jpg',
+      '/associative%20projects/FREAKS/ggj/329369503_876984823621540_4979543212368301787_n.jpg',
+      '/associative%20projects/FREAKS/ggj/34.jpg',
+      '/associative%20projects/FREAKS/ggj/35.jpg',
+      '/associative%20projects/FREAKS/ggj/36.jpg',
+      '/associative%20projects/FREAKS/ggj/37.jpg',
+      '/associative%20projects/FREAKS/ggj/40.jpg',
+      '/associative%20projects/FREAKS/ggj/493404330_24241627028771006_5978041378773387223_n.jpg',
+      '/associative%20projects/FREAKS/ggj/5.jpg',
+      '/associative%20projects/FREAKS/ggj/aff%20fin.jpg',
+      '/associative%20projects/FREAKS/ggj/ggj%20banner%201.jpg',
+      '/associative%20projects/FREAKS/ggj/ggj%20media%20post.jpg',
+      '/associative%20projects/FREAKS/ggj/ggj%20timeline%20media%20post%20day1.jpg',
+      '/associative%20projects/FREAKS/ggj/ggj%20timeline%20media%20post%20day2.jpg',
+      '/associative%20projects/FREAKS/ggj/TIK%20BREAKFAST.jpg',
+      '/associative%20projects/FREAKS/ggj/TIK%20COFFE%20BREAK.jpg',
+      '/associative%20projects/FREAKS/ggj/493404330_24241627028771006_5978041378773387223_n%20(1).jpg',
+      '/associative%20projects/FREAKS/ggj/ggj2/ggj%20banner%201.jpg',
+      '/associative%20projects/FREAKS/ggj/ggj2/ggj%20media%20post.jpg',
+      '/associative%20projects/FREAKS/ggj/ggj2/ggj%20timeline%20media%20post%20day1.jpg',
+      '/associative%20projects/FREAKS/ggj/ggj2/ggj%20timeline%20media%20post%20day2.jpg',
+      '/associative%20projects/FREAKS/ggj/ggj2/badge%20or.jpg',
+      '/associative%20projects/FREAKS/ggj/ggj2/badge%20jam.jpg',
+      '/associative%20projects/FREAKS/ggj/ggj2/TIK%20BREAKFAST.jpg',
+      '/associative%20projects/FREAKS/ggj/ggj2/TIK%20COFFE%20BREAK.jpg',
+      '/associative%20projects/FREAKS/ggj/ggj2/TIK%20DINNER.jpg'
     ]
   },
   {
@@ -64,18 +64,18 @@ const sections = [
       'Alongside event operations, I developed visual communication for Gaming Freaks and GGJ editions, including branding assets, posters, badges, schedules, ticketing materials, and social media content. My role combined design and event support by creating clear communication materials, shaping the visual identity of activities, and helping align on-site and digital content before, during, and after each event.',
     details: [],
     images: [
-      '/volunteering/FREAKS/events%20and%20designs/VALO.jpg',
-      '/volunteering/FREAKS/events%20and%20designs/2.jpg',
-      '/volunteering/FREAKS/events%20and%20designs/267852233_889417588443619_4699433499928502441_n.jpg',
-      '/volunteering/FREAKS/events%20and%20designs/326512879_530946675506739_6107071718111031634_n.png',
-      '/volunteering/FREAKS/events%20and%20designs/7.jpg',
-      '/volunteering/FREAKS/events%20and%20designs/banderole%20gaming%20freaks.jpg',
-      '/volunteering/FREAKS/events%20and%20designs/Blue%20and%20Purple%20Dark%20Retro%20Gaming%20Event%20Flyer.png',
-      '/volunteering/FREAKS/events%20and%20designs/epi%20ggggggg.jpg',
-      '/volunteering/FREAKS/events%20and%20designs/gaming%20in%20the%20metaverse1.png',
-      '/volunteering/FREAKS/events%20and%20designs/Program%201.jpg',
-      '/volunteering/FREAKS/events%20and%20designs/Program%202.jpg',
-      '/volunteering/FREAKS/events%20and%20designs/TICKET%20FINAL.jpg'
+      '/associative%20projects/FREAKS/events%20and%20designs/VALO.jpg',
+      '/associative%20projects/FREAKS/events%20and%20designs/2.jpg',
+      '/associative%20projects/FREAKS/events%20and%20designs/267852233_889417588443619_4699433499928502441_n.jpg',
+      '/associative%20projects/FREAKS/events%20and%20designs/326512879_530946675506739_6107071718111031634_n.png',
+      '/associative%20projects/FREAKS/events%20and%20designs/7.jpg',
+      '/associative%20projects/FREAKS/events%20and%20designs/banderole%20gaming%20freaks.jpg',
+      '/associative%20projects/FREAKS/events%20and%20designs/Blue%20and%20Purple%20Dark%20Retro%20Gaming%20Event%20Flyer.png',
+      '/associative%20projects/FREAKS/events%20and%20designs/epi%20ggggggg.jpg',
+      '/associative%20projects/FREAKS/events%20and%20designs/gaming%20in%20the%20metaverse1.png',
+      '/associative%20projects/FREAKS/events%20and%20designs/Program%201.jpg',
+      '/associative%20projects/FREAKS/events%20and%20designs/Program%202.jpg',
+      '/associative%20projects/FREAKS/events%20and%20designs/TICKET%20FINAL.jpg'
     ]
   }
 ];
@@ -131,11 +131,11 @@ const GamingFreaksProjectPage = () => {
           <div className="max-w-7xl mx-auto">
             <div className="mt-4 mb-8">
               <Link
-                to="/volunteering"
+                to="/associative-projects"
                 className="inline-flex items-center gap-2 text-gray-400 hover:text-[#d946ef] transition-colors"
               >
                 <ArrowLeft className="w-5 h-5" />
-                <span className="font-medium">Back to Volunteering</span>
+                <span className="font-medium">Back to Associative Projects</span>
               </Link>
             </div>
 
@@ -148,7 +148,7 @@ const GamingFreaksProjectPage = () => {
               <div className="mb-10 grid grid-cols-1 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] gap-8 items-center">
                 <div className="rounded-2xl p-8 bg-black/40 border border-[#2f2f2f]">
                   <img
-                    src="/volunteering/FREAKS/log%20blanc.png"
+                    src="/associative%20projects/FREAKS/log%20blanc.png"
                     alt="EPI Gaming Freaks logo"
                     className="w-full max-w-[320px] mx-auto h-auto object-contain"
                   />
@@ -206,7 +206,7 @@ const GamingFreaksProjectPage = () => {
                           <ul className="space-y-2 text-sm text-gray-300 leading-relaxed">
                             {section.details.map((detail, index) => (
                               <li key={`${section.key}-detail-${index}`} className={index === 0 ? 'text-white font-medium' : ''}>
-                                {index === 0 ? detail : `• ${detail}`}
+                                {index === 0 ? detail : `- ${detail}`}
                               </li>
                             ))}
                           </ul>

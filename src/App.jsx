@@ -17,7 +17,7 @@ import GamingFreaksProjectPage from './pages/GamingFreaksProjectPage.jsx';
 import IeeeProjectPage from './pages/IeeeProjectPage.jsx';
 import RivezliProjectPage from './pages/RivezliProjectPage.jsx';
 import ProfessionalProjectsPage from './pages/ProfessionalProjectsPage.jsx';
-import VolunteeringPage from './pages/VolunteeringPage.jsx';
+import AssociativeProjectsPage from './pages/AssociativeProjectsPage.jsx';
 import { Toaster } from '@/components/ui/toaster';
 
 function App() {
@@ -36,11 +36,11 @@ function App() {
         <Route path="/freelance-projects/rebellion-live-band" element={<RebellionProjectPage />} />
         <Route path="/professional-projects" element={<ProfessionalProjectsPage />} />
         <Route path="/professional-projects/rivezli" element={<RivezliProjectPage />} />
-        <Route path="/volunteering" element={<VolunteeringPage />} />
-        <Route path="/volunteering/enactus-epi-sousse" element={<EnactusProjectPage />} />
-        <Route path="/volunteering/gaming-freaks" element={<GamingFreaksProjectPage />} />
-        <Route path="/volunteering/cao" element={<CaoProjectPage />} />
-        <Route path="/volunteering/ieee" element={<IeeeProjectPage />} />
+        <Route path="/associative-projects" element={<AssociativeProjectsPage />} />
+        <Route path="/associative-projects/enactus-epi-sousse" element={<EnactusProjectPage />} />
+        <Route path="/associative-projects/gaming-freaks" element={<GamingFreaksProjectPage />} />
+        <Route path="/associative-projects/cao" element={<CaoProjectPage />} />
+        <Route path="/associative-projects/ieee" element={<IeeeProjectPage />} />
       </Routes>
       <Toaster />
     </Router>

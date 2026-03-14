@@ -20,11 +20,11 @@ const categories = [
     path: '/professional-projects'
   },
   {
-    id: 'volunteering',
-    title: 'Volunteering',
+    id: 'associative-projects',
+    title: 'Associative Projects',
     description: 'Community-driven initiatives, non-profit work, and impactful social projects.',
     icon: HeartHandshake,
-    path: '/volunteering'
+    path: '/associative-projects'
   }
 ];
 

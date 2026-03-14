@@ -11,10 +11,10 @@ const projects = [
     id: 0,
     title: 'Enactus EPI Sousse - University Journey',
     description: 'Leading marketing strategy and managing creative teams in social entrepreneurship. Driving high-impact content creation and visual storytelling to amplify community-focused innovation at Enactus EPI Sousse.',
-    thumbnail: '/volunteering/enactus/logo%20enactus%20blanc.png',
+    thumbnail: '/associative%20projects/enactus/logo%20enactus%20blanc.png',
     category: 'Featured Project',
     year: '2022-2024',
-    path: '/volunteering/enactus-epi-sousse',
+    path: '/associative-projects/enactus-epi-sousse',
     logoCard: true,
     logoBg: 'bg-black'
   },
@@ -22,10 +22,10 @@ const projects = [
     id: 1,
     title: 'Gaming Freaks',
     description: 'Volunteer creative work for gaming events and communities, including flyers, badges, timetables, and Global Game Jam media assets.',
-    thumbnail: '/volunteering/FREAKS/log%20blanc.png',
+    thumbnail: '/associative%20projects/FREAKS/log%20blanc.png',
     category: 'Community Project',
     year: '2023-2025',
-    path: '/volunteering/gaming-freaks',
+    path: '/associative-projects/gaming-freaks',
     logoCard: true,
     logoBg: 'bg-black'
   },
@@ -33,10 +33,10 @@ const projects = [
     id: 2,
     title: 'Club CAO EPI Sousse',
     description: 'Creative and engineering-focused club work including mechanical design visuals, competition announcements, and training materials.',
-    thumbnail: '/volunteering/cao/273900379_1404317893333523_489239045069502224_n.gif',
+    thumbnail: '/associative%20projects/cao/273900379_1404317893333523_489239045069502224_n.gif',
     category: 'University Club',
     year: '2022-2023',
-    path: '/volunteering/cao',
+    path: '/associative-projects/cao',
     logoCard: true,
     logoBg: 'bg-black'
   },
@@ -44,21 +44,21 @@ const projects = [
     id: 3,
     title: 'IEEE Student Branch',
     description: 'Volunteer design, media, and communication support for IEEE Student Branch activities, events, and technical initiatives.',
-    thumbnail: '/volunteering/ieee/logoieee%20(2)%20(1).png',
+    thumbnail: '/associative%20projects/ieee/logoieee%20(2)%20(1).png',
     category: 'Tech Community',
     year: '2021-2024',
-    path: '/volunteering/ieee',
+    path: '/associative-projects/ieee',
     logoCard: true,
     logoBg: 'bg-black'
   }
 ];
 
-const VolunteeringPage = () => {
+const AssociativeProjectsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Volunteering | Idriss KACEM</title>
-        <meta name="description" content="Explore volunteering and community projects by Idriss KACEM." />
+        <title>Associative Projects | Idriss KACEM</title>
+        <meta name="description" content="Explore associative and community projects by Idriss KACEM." />
       </Helmet>
 
       <div className="min-h-screen bg-[#1a1a1a] flex flex-col">
@@ -73,7 +73,7 @@ const VolunteeringPage = () => {
             </div>
             <div className="mb-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-                Volunteering
+                Associative Projects
               </h1>
               <p className="text-xl text-gray-400 max-w-3xl">
                 Community-driven initiatives, non-profit work, and impactful social projects aimed at making a positive difference through visual storytelling.
@@ -119,4 +119,4 @@ const VolunteeringPage = () => {
   );
 };
 
-export default VolunteeringPage;
+export default AssociativeProjectsPage;

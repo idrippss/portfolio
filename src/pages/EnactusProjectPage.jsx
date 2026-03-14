@@ -14,10 +14,10 @@ const sections = [
     title: 'Badges',
     description: 'Identity and role badge designs created for team structure and member presentation.',
     images: [
-      '/volunteering/enactus/badges/badge%20org.jpg',
-      '/volunteering/enactus/badges/fin%20ik.jpg',
-      '/volunteering/enactus/badges/fin%20rahma.jpg',
-      '/volunteering/enactus/badges/fin%20roue.jpg'
+      '/associative%20projects/enactus/badges/badge%20org.jpg',
+      '/associative%20projects/enactus/badges/fin%20ik.jpg',
+      '/associative%20projects/enactus/badges/fin%20rahma.jpg',
+      '/associative%20projects/enactus/badges/fin%20roue.jpg'
     ]
   },
   {
@@ -25,10 +25,10 @@ const sections = [
     title: 'Certificates',
     description: 'Recognition and appreciation certificates designed for speakers, contributors, and organizers.',
     images: [
-      '/volunteering/enactus/certificates/certificate%20of%20appreciation.jpg',
-      '/volunteering/enactus/certificates/certificate%20of%20appreciation2.jpg',
-      '/volunteering/enactus/certificates/certificate%20of%20appreciation3.jpg',
-      '/volunteering/enactus/certificates/certificateORG.jpg'
+      '/associative%20projects/enactus/certificates/certificate%20of%20appreciation.jpg',
+      '/associative%20projects/enactus/certificates/certificate%20of%20appreciation2.jpg',
+      '/associative%20projects/enactus/certificates/certificate%20of%20appreciation3.jpg',
+      '/associative%20projects/enactus/certificates/certificateORG.jpg'
     ]
   },
   {
@@ -36,8 +36,8 @@ const sections = [
     title: 'Group Photos',
     description: 'Team and event memories documenting the people, moments, and atmosphere behind each initiative.',
     images: [
-      '/volunteering/enactus/group%20photos/IMG_7756.JPG',
-      '/volunteering/enactus/group%20photos/IMG_9622.JPG'
+      '/associative%20projects/enactus/group%20photos/IMG_7756.JPG',
+      '/associative%20projects/enactus/group%20photos/IMG_9622.JPG'
     ]
   },
   {
@@ -46,13 +46,13 @@ const sections = [
     description:
       'Regional teams attended hands-on workshops and pitched their projects during the challenge. In this event, I served as Organizer and Media Manager, handling coordination and visual communication assets before and during the competition.',
     images: [
-      '/volunteering/enactus/launchpad/AFF.jpg',
-      '/volunteering/enactus/launchpad/COVER%20EVENT%20FINAL.jpg',
-      '/volunteering/enactus/launchpad/ORGA.jpg',
-      '/volunteering/enactus/launchpad/PARTI.jpg',
-      '/volunteering/enactus/launchpad/PHOTO%20DE%20PROFIL.jpg',
-      '/volunteering/enactus/launchpad/pitching.jpg',
-      '/volunteering/enactus/launchpad/TRAIN.jpg'
+      '/associative%20projects/enactus/launchpad/AFF.jpg',
+      '/associative%20projects/enactus/launchpad/COVER%20EVENT%20FINAL.jpg',
+      '/associative%20projects/enactus/launchpad/ORGA.jpg',
+      '/associative%20projects/enactus/launchpad/PARTI.jpg',
+      '/associative%20projects/enactus/launchpad/PHOTO%20DE%20PROFIL.jpg',
+      '/associative%20projects/enactus/launchpad/pitching.jpg',
+      '/associative%20projects/enactus/launchpad/TRAIN.jpg'
     ]
   },
   {
@@ -60,10 +60,10 @@ const sections = [
     title: 'Posters',
     description: 'Promotional posters developed for recruitment, event announcements, and educational campaigns.',
     images: [
-      '/volunteering/enactus/posters/AFF2F.jpg',
-      '/volunteering/enactus/posters/affiche%20FINALEEE.jpg',
-      '/volunteering/enactus/posters/PROGRAMMEFINAllllllllllllllllllllllllllllllll.jpg',
-      '/volunteering/enactus/posters/Enactus%20journ%C3%A9e%20d%27integration.png'
+      '/associative%20projects/enactus/posters/AFF2F.jpg',
+      '/associative%20projects/enactus/posters/affiche%20FINALEEE.jpg',
+      '/associative%20projects/enactus/posters/PROGRAMMEFINAllllllllllllllllllllllllllllllll.jpg',
+      '/associative%20projects/enactus/posters/Enactus%20journ%C3%A9e%20d%27integration.png'
     ]
   },
   {
@@ -71,10 +71,10 @@ const sections = [
     title: 'Project Work',
     description: 'Academic and entrepreneurial visual supports prepared for internal presentations and workshops.',
     images: [
-      '/volunteering/enactus/project%20work/DIAP1.jpg',
-      '/volunteering/enactus/project%20work/DIAP2.jpg',
-      '/volunteering/enactus/project%20work/DIAP3.jpg',
-      '/volunteering/enactus/project%20work/DIAP4.jpg'
+      '/associative%20projects/enactus/project%20work/DIAP1.jpg',
+      '/associative%20projects/enactus/project%20work/DIAP2.jpg',
+      '/associative%20projects/enactus/project%20work/DIAP3.jpg',
+      '/associative%20projects/enactus/project%20work/DIAP4.jpg'
     ]
   },
   {
@@ -82,33 +82,33 @@ const sections = [
     title: 'Social Media',
     description: 'Short-form visual storytelling and branded content built for campaign engagement and team visibility.',
     images: [
-      '/volunteering/enactus/social%20media/1.jpg',
-      '/volunteering/enactus/social%20media/2.jpg',
-      '/volunteering/enactus/social%20media/3.jpg',
-      '/volunteering/enactus/social%20media/4.jpg',
-      '/volunteering/enactus/social%20media/5.jpg',
-      '/volunteering/enactus/social%20media/6.jpg',
-      '/volunteering/enactus/social%20media/7.jpg',
-      '/volunteering/enactus/social%20media/8.jpg',
-      '/volunteering/enactus/social%20media/9.jpg',
-      '/volunteering/enactus/social%20media/10.jpg',
-      '/volunteering/enactus/social%20media/asma.jpg',
-      '/volunteering/enactus/social%20media/azouzi.jpg',
-      '/volunteering/enactus/social%20media/board2.jpg',
-      '/volunteering/enactus/social%20media/eya.jpg',
-      '/volunteering/enactus/social%20media/idriss.jpg',
-      '/volunteering/enactus/social%20media/THUMBNAIL.jpg',
-      '/volunteering/enactus/social%20media/insta%20post.png',
-      '/volunteering/enactus/social%20media/we%20are%20hiringg.jpg',
-      '/volunteering/enactus/social%20media/molka.jpg',
-      '/volunteering/enactus/social%20media/psd%20aziz.jpg',
-      '/volunteering/enactus/social%20media/psd%20ghazi.jpg',
-      '/volunteering/enactus/social%20media/psd%20KOUSSAY.jpg',
-      '/volunteering/enactus/social%20media/psd%20KOUSSAY%20CERTIF.jpg',
-      '/volunteering/enactus/social%20media/psd%20Seif.jpg',
-      '/volunteering/enactus/social%20media/roua.jpg',
-      '/volunteering/enactus/social%20media/salma.jpg',
-      '/volunteering/enactus/social%20media/SEIF%20CERTIF.jpg'
+      '/associative%20projects/enactus/social%20media/1.jpg',
+      '/associative%20projects/enactus/social%20media/2.jpg',
+      '/associative%20projects/enactus/social%20media/3.jpg',
+      '/associative%20projects/enactus/social%20media/4.jpg',
+      '/associative%20projects/enactus/social%20media/5.jpg',
+      '/associative%20projects/enactus/social%20media/6.jpg',
+      '/associative%20projects/enactus/social%20media/7.jpg',
+      '/associative%20projects/enactus/social%20media/8.jpg',
+      '/associative%20projects/enactus/social%20media/9.jpg',
+      '/associative%20projects/enactus/social%20media/10.jpg',
+      '/associative%20projects/enactus/social%20media/asma.jpg',
+      '/associative%20projects/enactus/social%20media/azouzi.jpg',
+      '/associative%20projects/enactus/social%20media/board2.jpg',
+      '/associative%20projects/enactus/social%20media/eya.jpg',
+      '/associative%20projects/enactus/social%20media/idriss.jpg',
+      '/associative%20projects/enactus/social%20media/THUMBNAIL.jpg',
+      '/associative%20projects/enactus/social%20media/insta%20post.png',
+      '/associative%20projects/enactus/social%20media/we%20are%20hiringg.jpg',
+      '/associative%20projects/enactus/social%20media/molka.jpg',
+      '/associative%20projects/enactus/social%20media/psd%20aziz.jpg',
+      '/associative%20projects/enactus/social%20media/psd%20ghazi.jpg',
+      '/associative%20projects/enactus/social%20media/psd%20KOUSSAY.jpg',
+      '/associative%20projects/enactus/social%20media/psd%20KOUSSAY%20CERTIF.jpg',
+      '/associative%20projects/enactus/social%20media/psd%20Seif.jpg',
+      '/associative%20projects/enactus/social%20media/roua.jpg',
+      '/associative%20projects/enactus/social%20media/salma.jpg',
+      '/associative%20projects/enactus/social%20media/SEIF%20CERTIF.jpg'
     ]
   }
 ];
@@ -150,10 +150,10 @@ const EnactusProjectPage = () => {
   return (
     <>
       <Helmet>
-        <title>Enactus EPI Sousse | Volunteering Project</title>
+        <title>Enactus EPI Sousse | Associative Project</title>
         <meta
           name="description"
-          content="University volunteering experience with Enactus EPI Sousse featuring posters, badges, certificates, social media design, and event documentation."
+          content="University associative project experience with Enactus EPI Sousse featuring posters, badges, certificates, social media design, and event documentation."
         />
       </Helmet>
 
@@ -164,11 +164,11 @@ const EnactusProjectPage = () => {
           <div className="max-w-7xl mx-auto">
             <div className="mt-4 mb-8">
               <Link
-                to="/volunteering"
+                to="/associative-projects"
                 className="inline-flex items-center gap-2 text-gray-400 hover:text-[#f4c430] transition-colors"
               >
                 <ArrowLeft className="w-5 h-5" />
-                <span className="font-medium">Back to Volunteering</span>
+                <span className="font-medium">Back to Associative Projects</span>
               </Link>
             </div>
 
@@ -182,7 +182,7 @@ const EnactusProjectPage = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] gap-8 items-center">
                   <div className="rounded-2xl p-8">
                     <img
-                      src="/volunteering/enactus/logo%20enactus%20blanc.png"
+                      src="/associative%20projects/enactus/logo%20enactus%20blanc.png"
                       alt="Enactus EPI Sousse logo"
                       className="w-full h-auto object-contain"
                     />

@@ -6,26 +6,26 @@ import { ArrowLeft, ChevronLeft, ChevronRight, ExternalLink, Instagram } from 'l
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 
-const heroBanner = '/volunteering/ieee/IEEE-scaled.jpg';
+const heroBanner = '/associative%20projects/ieee/IEEE-scaled.jpg';
 const ieeeInstagramUrl = 'https://www.instagram.com/ieee_epi_sb';
 const wieInstagramUrl = 'https://www.instagram.com/ieee_wie_epi?igsh=MW5yNWIzaDE3aWg4dA==';
 
 const sections = [
   {
     key: 'wie',
-    title: 'IEEE WIE — Women in Engineering',
+    title: 'IEEE WIE - Women in Engineering',
     description:
       'As Design Manager for IEEE WIE, I provided creative direction and communication assets to amplify global initiatives supporting women in technology. I focused on increasing student engagement, highlighting STEM role models, and promoting community-driven programs centered on mentorship, visibility, and empowerment for women in engineering.',
     socialUrl: wieInstagramUrl,
     socialLabel: 'IEEE WIE EPI',
-    introLogo: '/volunteering/ieee/wie/wie-logo-white.png',
+    introLogo: '/associative%20projects/ieee/wie/wie-logo-white.png',
     images: [
-      '/volunteering/ieee/wie/WIE%20TALK1.jpg',
-      '/volunteering/ieee/wie/AFFICHE%20FILM.jpg',
-      '/volunteering/ieee/wie/affiche%20lumi%C3%A8res7%20a2.jpg',
-      '/volunteering/ieee/wie/affiche%20stand.jpg',
-      '/volunteering/ieee/wie/IMG_0003.jpg',
-      '/volunteering/ieee/wie/IMG_0310.jpg'
+      '/associative%20projects/ieee/wie/WIE%20TALK1.jpg',
+      '/associative%20projects/ieee/wie/AFFICHE%20FILM.jpg',
+      '/associative%20projects/ieee/wie/affiche%20lumi%C3%A8res7%20a2.jpg',
+      '/associative%20projects/ieee/wie/affiche%20stand.jpg',
+      '/associative%20projects/ieee/wie/IMG_0003.jpg',
+      '/associative%20projects/ieee/wie/IMG_0310.jpg'
     ],
     details: []
   },
@@ -37,16 +37,16 @@ const sections = [
     socialUrl: ieeeInstagramUrl,
     socialLabel: 'IEEE EPI Student Branch',
     images: [
-      '/volunteering/ieee/XTREME17%20A2.jpg',
-      '/volunteering/ieee/XTREME17%20timeline.jpg',
-      '/volunteering/ieee/xtreme17.jpg',
-      '/volunteering/ieee/IMG_0606.jpg',
-      '/volunteering/ieee/IMG_0727.jpg',
-      '/volunteering/ieee/IMG_0758.jpg',
-      '/volunteering/ieee/392861183_312801344834619_5872583123977072237_n.jpg',
-      '/volunteering/ieee/IMG_0220.PNG',
-      '/volunteering/ieee/IMG_0221.PNG',
-      '/volunteering/ieee/palestinePoster.jpg'
+      '/associative%20projects/ieee/XTREME17%20A2.jpg',
+      '/associative%20projects/ieee/XTREME17%20timeline.jpg',
+      '/associative%20projects/ieee/xtreme17.jpg',
+      '/associative%20projects/ieee/IMG_0606.jpg',
+      '/associative%20projects/ieee/IMG_0727.jpg',
+      '/associative%20projects/ieee/IMG_0758.jpg',
+      '/associative%20projects/ieee/392861183_312801344834619_5872583123977072237_n.jpg',
+      '/associative%20projects/ieee/IMG_0220.PNG',
+      '/associative%20projects/ieee/IMG_0221.PNG',
+      '/associative%20projects/ieee/palestinePoster.jpg'
     ],
     details: []
   },
@@ -57,14 +57,14 @@ const sections = [
       'Through the IEEE STAR Program, we visited a school with limited resources and spent the day with children through hands-on workshops, interactive activities, and educational games. The initiative aimed to make technology and learning more accessible, create joyful moments, and encourage curiosity, teamwork, and confidence in a supportive environment.',
     images: [
 
-      '/volunteering/ieee/school%20workshop/IMG_2090.png',
-      '/volunteering/ieee/school%20workshop/IMG_2208.png',
-      '/volunteering/ieee/school%20workshop/IMG_2279.png',
-      '/volunteering/ieee/school%20workshop/IMG_2289.png',
-      '/volunteering/ieee/school%20workshop/IMG_2458.png',
-      '/volunteering/ieee/school%20workshop/IMG_4217.png',
-      '/volunteering/ieee/school%20workshop/IMG_4234.png',
-      '/volunteering/ieee/school%20workshop/IMG_4276.png'
+      '/associative%20projects/ieee/school%20workshop/IMG_2090.png',
+      '/associative%20projects/ieee/school%20workshop/IMG_2208.png',
+      '/associative%20projects/ieee/school%20workshop/IMG_2279.png',
+      '/associative%20projects/ieee/school%20workshop/IMG_2289.png',
+      '/associative%20projects/ieee/school%20workshop/IMG_2458.png',
+      '/associative%20projects/ieee/school%20workshop/IMG_4217.png',
+      '/associative%20projects/ieee/school%20workshop/IMG_4234.png',
+      '/associative%20projects/ieee/school%20workshop/IMG_4276.png'
 
     ],
     details: []
@@ -111,7 +111,7 @@ const IeeeProjectPage = () => {
         <title>IEEE EPI Student Branch | Idriss Kacem</title>
         <meta
           name="description"
-          content="Idriss Kacem's involvement with IEEE EPI Student Branch — IEEEXtreme, WIE, and humanitarian events."
+          content="Idriss Kacem's involvement with IEEE EPI Student Branch - IEEEXtreme, WIE, and humanitarian events."
         />
       </Helmet>
 
@@ -122,11 +122,11 @@ const IeeeProjectPage = () => {
           <div className="max-w-7xl mx-auto">
             <div className="mt-4 mb-8">
               <Link
-                to="/volunteering"
+                to="/associative-projects"
                 className="inline-flex items-center gap-2 text-gray-400 hover:text-[#ef4444] transition-colors"
               >
                 <ArrowLeft className="w-5 h-5" />
-                <span className="font-medium">Back to Volunteering</span>
+                <span className="font-medium">Back to Associative Projects</span>
               </Link>
             </div>
 
@@ -140,7 +140,7 @@ const IeeeProjectPage = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] gap-8 items-center">
                   <div className="rounded-2xl p-8">
                     <img
-                      src="/volunteering/ieee/logoieee%20(2)%20(1).png"
+                      src="/associative%20projects/ieee/logoieee%20(2)%20(1).png"
                       alt="IEEE EPI Student Branch logo"
                       className="w-full h-auto object-contain"
                     />
@@ -272,7 +272,7 @@ const IeeeProjectPage = () => {
                               <ul className="space-y-2 text-sm text-gray-300 leading-relaxed">
                                 {section.details.map((detail, index) => (
                                   <li key={`${section.key}-detail-${index}`} className={index === 0 ? 'text-white font-medium' : ''}>
-                                    {index === 0 ? detail : `• ${detail}`}
+                                    {index === 0 ? detail : `- ${detail}`}
                                   </li>
                                 ))}
                               </ul>

@@ -14,11 +14,11 @@ const sections = [
       'CAO is a mechanical design club focused on creativity, engineering thinking, and hands-on learning. The club organizes 3D object modeling competitions and practical sessions where members train on conception tools, improve problem-solving skills, and turn technical ideas into concrete designs.',
     images: [
 
-      '/volunteering/Cao/AFF3%20fFF.jpg',
-      '/volunteering/Cao/PROGFFG%20CARRE3FFFFF.jpg',
-      '/volunteering/Cao/316553316_3294470674136417_2198264595731019153_n.jpg',
-      '/volunteering/Cao/316667035_3294461774137307_6971661669032443986_n.jpg',
-      '/volunteering/Cao/317246102_3294464774137007_6563421949790245513_n.jpg'
+      '/associative%20projects/cao/AFF3%20fFF.jpg',
+      '/associative%20projects/cao/PROGFFG%20CARRE3FFFFF.jpg',
+      '/associative%20projects/cao/316553316_3294470674136417_2198264595731019153_n.jpg',
+      '/associative%20projects/cao/316667035_3294461774137307_6971661669032443986_n.jpg',
+      '/associative%20projects/cao/317246102_3294464774137007_6563421949790245513_n.jpg'
     ]
   }
 ];
@@ -74,11 +74,11 @@ const CaoProjectPage = () => {
           <div className="max-w-7xl mx-auto">
             <div className="mt-4 mb-8">
               <Link
-                to="/volunteering"
+                to="/associative-projects"
                 className="inline-flex items-center gap-2 text-gray-400 hover:text-[#dc2626] transition-colors"
               >
                 <ArrowLeft className="w-5 h-5" />
-                <span className="font-medium">Back to Volunteering</span>
+                <span className="font-medium">Back to Associative Projects</span>
               </Link>
             </div>
 
@@ -91,7 +91,7 @@ const CaoProjectPage = () => {
               <div className="mb-10 grid grid-cols-1 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] gap-8 items-center">
                 <div className="rounded-2xl p-8 bg-black/40 border border-[#2f2f2f]">
                   <img
-                    src="/volunteering/Cao/273900379_1404317893333523_489239045069502224_n.gif"
+                    src="/associative%20projects/cao/273900379_1404317893333523_489239045069502224_n.gif"
                     alt="Club CAO EPI Sousse logo"
                     className="w-full max-w-[280px] mx-auto h-auto object-contain"
                   />
