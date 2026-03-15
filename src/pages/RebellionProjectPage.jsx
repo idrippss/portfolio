@@ -8,13 +8,13 @@ import Footer from '@/components/Footer.jsx';
 import { getProjectImages, getProjectVideos } from '@/lib/mediaManifest.js';
 
 const allImages = getProjectImages('REBELLION', [
-  '/freelanceprojects/REBELLION/affiche%20caruso%2015.11.jpg',
-  '/freelanceprojects/REBELLION/affiche%20face%2018.12.jpg',
-  '/freelanceprojects/REBELLION/affiche%20face%2027.11.jpg',
-  '/freelanceprojects/REBELLION/affiche%20face%204.12.jpg',
-  '/freelanceprojects/REBELLION/affiche%20golf%2007.11%202.png',
-  '/freelanceprojects/REBELLION/IMG_0374.JPG',
-  '/freelanceprojects/REBELLION/IMG_0469.JPG'
+  '/sitewebmedia/freelanceprojects/REBELLION/affiche%20caruso%2015.11.jpg',
+  '/sitewebmedia/freelanceprojects/REBELLION/affiche%20face%2018.12.jpg',
+  '/sitewebmedia/freelanceprojects/REBELLION/affiche%20face%2027.11.jpg',
+  '/sitewebmedia/freelanceprojects/REBELLION/affiche%20face%204.12.jpg',
+  '/sitewebmedia/freelanceprojects/REBELLION/affiche%20golf%2007.11%202.png',
+  '/sitewebmedia/freelanceprojects/REBELLION/IMG_0374.JPG',
+  '/sitewebmedia/freelanceprojects/REBELLION/IMG_0469.JPG'
 ]);
 
 const galleryImages = allImages.slice(0, 6);
@@ -22,7 +22,7 @@ const galleryImages = allImages.slice(0, 6);
 const reelVideo = getProjectVideos('REBELLION', [
   {
     title: 'Rebellion live reel',
-    videoUrl: '/freelanceprojects/REBELLION/rebellion_lounge_novembre.mp4'
+    videoUrl: '/sitewebmedia/freelanceprojects/REBELLION/rebellion_lounge_novembre.mp4'
   }
 ])[0];
 
@@ -78,7 +78,7 @@ const RebellionProjectPage = () => {
                       className="rounded-xl border border-[#333] overflow-hidden bg-black p-6 hover:border-[#00d4ff] transition-colors"
                     >
                       <img
-                        src="/freelanceprojects/REBELLION/rebellion%20logo%20BLANC.png"
+                        src="/sitewebmedia/freelanceprojects/REBELLION/rebellion%20logo%20BLANC.png"
                         alt="Rebellion Live Band logo"
                         className="w-full h-auto object-contain"
                       />
@@ -172,7 +172,7 @@ const RebellionProjectPage = () => {
                       ))}
                     </div>
 
-                    <div className="flex items-center justify-center gap-2 overflow-x-auto pb-1 hide-scrollbar">
+                    <div className="flex items-center justify-center gap-2 flex-wrap pb-1">
                       {galleryImages.map((image, index) => (
                         <button
                           key={image}

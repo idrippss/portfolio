@@ -12,7 +12,7 @@ const projects = [
     id: 0,
     title: 'RIVEZLI - AI-Powered Educational Platform',
     description: 'Software Engineering Graduation Project (PFE) focused on AI-supported learning and student progress automation.',
-    thumbnail: '/proessional%20projects/rivezli/logo2.png',
+    thumbnail: '/sitewebmedia/proessional%20projects/rivezli/logo2.png',
     category: 'Software Engineering',
     year: '2024',
     path: '/professional-projects/rivezli',

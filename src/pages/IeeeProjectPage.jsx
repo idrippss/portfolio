@@ -6,7 +6,7 @@ import { ArrowLeft, ChevronLeft, ChevronRight, ExternalLink, Instagram } from 'l
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 
-const heroBanner = '/associative%20projects/ieee/IEEE-scaled.jpg';
+const heroBanner = '/sitewebmedia/associative%20projects/ieee/logo_ieee.png';
 const ieeeInstagramUrl = 'https://www.instagram.com/ieee_epi_sb';
 const wieInstagramUrl = 'https://www.instagram.com/ieee_wie_epi?igsh=MW5yNWIzaDE3aWg4dA==';
 
@@ -18,14 +18,13 @@ const sections = [
       'As Design Manager for IEEE WIE, I provided creative direction and communication assets to amplify global initiatives supporting women in technology. I focused on increasing student engagement, highlighting STEM role models, and promoting community-driven programs centered on mentorship, visibility, and empowerment for women in engineering.',
     socialUrl: wieInstagramUrl,
     socialLabel: 'IEEE WIE EPI',
-    introLogo: '/associative%20projects/ieee/wie/wie-logo-white.png',
+    introLogo: '/sitewebmedia/associative%20projects/ieee/wie/wie-logo-white.png',
     images: [
-      '/associative%20projects/ieee/wie/WIE%20TALK1.jpg',
-      '/associative%20projects/ieee/wie/AFFICHE%20FILM.jpg',
-      '/associative%20projects/ieee/wie/affiche%20lumi%C3%A8res7%20a2.jpg',
-      '/associative%20projects/ieee/wie/affiche%20stand.jpg',
-      '/associative%20projects/ieee/wie/IMG_0003.jpg',
-      '/associative%20projects/ieee/wie/IMG_0310.jpg'
+      '/sitewebmedia/associative%20projects/ieee/wie/wie_aff1.jpg',
+      '/sitewebmedia/associative%20projects/ieee/wie/AFFICHE_FILM.jpg',
+      '/sitewebmedia/associative%20projects/ieee/wie/affiche_lumi%C3%A8res7.jpg',
+      '/sitewebmedia/associative%20projects/ieee/wie/affiche%20stand.jpg',
+      '/sitewebmedia/associative%20projects/ieee/wie/wie_event1.jpg'
     ],
     details: []
   },
@@ -37,16 +36,19 @@ const sections = [
     socialUrl: ieeeInstagramUrl,
     socialLabel: 'IEEE EPI Student Branch',
     images: [
-      '/associative%20projects/ieee/XTREME17%20A2.jpg',
-      '/associative%20projects/ieee/XTREME17%20timeline.jpg',
-      '/associative%20projects/ieee/xtreme17.jpg',
-      '/associative%20projects/ieee/IMG_0606.jpg',
-      '/associative%20projects/ieee/IMG_0727.jpg',
-      '/associative%20projects/ieee/IMG_0758.jpg',
-      '/associative%20projects/ieee/392861183_312801344834619_5872583123977072237_n.jpg',
-      '/associative%20projects/ieee/IMG_0220.PNG',
-      '/associative%20projects/ieee/IMG_0221.PNG',
-      '/associative%20projects/ieee/palestinePoster.jpg'
+      '/sitewebmedia/associative%20projects/ieee/ieee%20events/ieee_events1.jpg',
+      '/sitewebmedia/associative%20projects/ieee/ieee%20events/ieee_events2.PNG',
+      '/sitewebmedia/associative%20projects/ieee/ieee%20events/ieee_events3.PNG',
+      '/sitewebmedia/associative%20projects/ieee/ieee%20events/ieee_events6.jpg',
+      '/sitewebmedia/associative%20projects/ieee/ieee%20events/ieee_events7.jpg',
+      '/sitewebmedia/associative%20projects/ieee/ieee%20events/ieee_events8.jpg',
+      '/sitewebmedia/associative%20projects/ieee/ieee%20events/ieee_events9.jpg',
+      '/sitewebmedia/associative%20projects/ieee/ieee%20events/ieee_events10.jpg',
+      '/sitewebmedia/associative%20projects/ieee/ieee%20events/ieee_events11.jpg',
+      '/sitewebmedia/associative%20projects/ieee/ieee%20events/ieee_events12.jpg',
+      '/sitewebmedia/associative%20projects/ieee/ieee%20events/ieee_events13.jpg',
+      '/sitewebmedia/associative%20projects/ieee/ieee%20events/ieee_events14.jpg',
+      '/sitewebmedia/associative%20projects/ieee/xtreme_logo.PNG'
     ],
     details: []
   },
@@ -57,14 +59,14 @@ const sections = [
       'Through the IEEE STAR Program, we visited a school with limited resources and spent the day with children through hands-on workshops, interactive activities, and educational games. The initiative aimed to make technology and learning more accessible, create joyful moments, and encourage curiosity, teamwork, and confidence in a supportive environment.',
     images: [
 
-      '/associative%20projects/ieee/school%20workshop/IMG_2090.png',
-      '/associative%20projects/ieee/school%20workshop/IMG_2208.png',
-      '/associative%20projects/ieee/school%20workshop/IMG_2279.png',
-      '/associative%20projects/ieee/school%20workshop/IMG_2289.png',
-      '/associative%20projects/ieee/school%20workshop/IMG_2458.png',
-      '/associative%20projects/ieee/school%20workshop/IMG_4217.png',
-      '/associative%20projects/ieee/school%20workshop/IMG_4234.png',
-      '/associative%20projects/ieee/school%20workshop/IMG_4276.png'
+      '/sitewebmedia/associative%20projects/ieee/star_program/ieee_star1.jpg',
+      '/sitewebmedia/associative%20projects/ieee/star_program/ieee_star2.jpg',
+      '/sitewebmedia/associative%20projects/ieee/star_program/ieee_star3.jpg',
+      '/sitewebmedia/associative%20projects/ieee/star_program/ieee_star4.jpg',
+      '/sitewebmedia/associative%20projects/ieee/star_program/ieee_star5.jpg',
+      '/sitewebmedia/associative%20projects/ieee/star_program/ieee_star6.jpg',
+      '/sitewebmedia/associative%20projects/ieee/star_program/ieee_star7.jpg',
+      '/sitewebmedia/associative%20projects/ieee/star_program/ieee_star8.jpg'
 
     ],
     details: []
@@ -140,7 +142,7 @@ const IeeeProjectPage = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] gap-8 items-center">
                   <div className="rounded-2xl p-8">
                     <img
-                      src="/associative%20projects/ieee/logoieee%20(2)%20(1).png"
+                      src="/sitewebmedia/associative%20projects/ieee/logo_ieee.png"
                       alt="IEEE EPI Student Branch logo"
                       className="w-full h-auto object-contain"
                     />
@@ -344,7 +346,7 @@ const IeeeProjectPage = () => {
 
                               {totalImages > 1 && (
 
-                                <div className="flex items-center justify-center gap-2 overflow-x-auto pb-1 hide-scrollbar">
+                                <div className="flex items-center justify-center gap-2 flex-wrap pb-1">
                                   {section.images.map((image, index) => (
                                     <button
                                       key={`${section.key}-thumb-${image}`}

@@ -18,43 +18,34 @@ const sections = [
     eventUrl: ggj2024Url,
     eventLabel: 'Official Event Link',
     images: [
-      '/associative%20projects/FREAKS/ggj/1.jpg',
-      '/associative%20projects/FREAKS/ggj/23.jpg',
-      '/associative%20projects/FREAKS/ggj/26.jpg',
-      '/associative%20projects/FREAKS/ggj/29.jpg',
-      '/associative%20projects/FREAKS/ggj/ggj2/aff%20fin.jpg',
-      '/associative%20projects/FREAKS/ggj/329139084_626511989237527_855965577313854795_n.jpg',
-      '/associative%20projects/FREAKS/ggj/329320469_1337594750396540_2959170249055901479_n.jpg',
-      '/associative%20projects/FREAKS/ggj/329323581_718805019912014_8695160962756338939_n.jpg',
-      '/associative%20projects/FREAKS/ggj/329328808_745877423715247_6922803875405082604_n.jpg',
-      '/associative%20projects/FREAKS/ggj/329358466_1390145868465320_4168046337146391201_n.jpg',
-      '/associative%20projects/FREAKS/ggj/329362069_1802676920119279_7395283700356569946_n.jpg',
-      '/associative%20projects/FREAKS/ggj/329367894_538575951669852_5118681104651626151_n.jpg',
-      '/associative%20projects/FREAKS/ggj/329369503_876984823621540_4979543212368301787_n.jpg',
-      '/associative%20projects/FREAKS/ggj/34.jpg',
-      '/associative%20projects/FREAKS/ggj/35.jpg',
-      '/associative%20projects/FREAKS/ggj/36.jpg',
-      '/associative%20projects/FREAKS/ggj/37.jpg',
-      '/associative%20projects/FREAKS/ggj/40.jpg',
-      '/associative%20projects/FREAKS/ggj/493404330_24241627028771006_5978041378773387223_n.jpg',
-      '/associative%20projects/FREAKS/ggj/5.jpg',
-      '/associative%20projects/FREAKS/ggj/aff%20fin.jpg',
-      '/associative%20projects/FREAKS/ggj/ggj%20banner%201.jpg',
-      '/associative%20projects/FREAKS/ggj/ggj%20media%20post.jpg',
-      '/associative%20projects/FREAKS/ggj/ggj%20timeline%20media%20post%20day1.jpg',
-      '/associative%20projects/FREAKS/ggj/ggj%20timeline%20media%20post%20day2.jpg',
-      '/associative%20projects/FREAKS/ggj/TIK%20BREAKFAST.jpg',
-      '/associative%20projects/FREAKS/ggj/TIK%20COFFE%20BREAK.jpg',
-      '/associative%20projects/FREAKS/ggj/493404330_24241627028771006_5978041378773387223_n%20(1).jpg',
-      '/associative%20projects/FREAKS/ggj/ggj2/ggj%20banner%201.jpg',
-      '/associative%20projects/FREAKS/ggj/ggj2/ggj%20media%20post.jpg',
-      '/associative%20projects/FREAKS/ggj/ggj2/ggj%20timeline%20media%20post%20day1.jpg',
-      '/associative%20projects/FREAKS/ggj/ggj2/ggj%20timeline%20media%20post%20day2.jpg',
-      '/associative%20projects/FREAKS/ggj/ggj2/badge%20or.jpg',
-      '/associative%20projects/FREAKS/ggj/ggj2/badge%20jam.jpg',
-      '/associative%20projects/FREAKS/ggj/ggj2/TIK%20BREAKFAST.jpg',
-      '/associative%20projects/FREAKS/ggj/ggj2/TIK%20COFFE%20BREAK.jpg',
-      '/associative%20projects/FREAKS/ggj/ggj2/TIK%20DINNER.jpg'
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/1.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/2.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/3.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/4.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/5.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/6.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/7.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/8.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/11.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/23.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/26.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/29.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/34.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/35.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/36.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/37.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/40.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_design/aff_fin.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_design/badge_jam.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_design/badge_or.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_design/ggj00-roundlogo-900x900.png',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_design/ggj_banner_1.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_design/ggj_banner_2023.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_design/ggj_media_post.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_design/ggj_timeline%20media_post_day1.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_design/ggj_timeline%20media_post_day2.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_design/TIK_BREAKFAST.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_design/TIK_COFFE_BREAK.jpg'
     ]
   },
   {
@@ -64,18 +55,17 @@ const sections = [
       'Alongside event operations, I developed visual communication for Gaming Freaks and GGJ editions, including branding assets, posters, badges, schedules, ticketing materials, and social media content. My role combined design and event support by creating clear communication materials, shaping the visual identity of activities, and helping align on-site and digital content before, during, and after each event.',
     details: [],
     images: [
-      '/associative%20projects/FREAKS/events%20and%20designs/VALO.jpg',
-      '/associative%20projects/FREAKS/events%20and%20designs/2.jpg',
-      '/associative%20projects/FREAKS/events%20and%20designs/267852233_889417588443619_4699433499928502441_n.jpg',
-      '/associative%20projects/FREAKS/events%20and%20designs/326512879_530946675506739_6107071718111031634_n.png',
-      '/associative%20projects/FREAKS/events%20and%20designs/7.jpg',
-      '/associative%20projects/FREAKS/events%20and%20designs/banderole%20gaming%20freaks.jpg',
-      '/associative%20projects/FREAKS/events%20and%20designs/Blue%20and%20Purple%20Dark%20Retro%20Gaming%20Event%20Flyer.png',
-      '/associative%20projects/FREAKS/events%20and%20designs/epi%20ggggggg.jpg',
-      '/associative%20projects/FREAKS/events%20and%20designs/gaming%20in%20the%20metaverse1.png',
-      '/associative%20projects/FREAKS/events%20and%20designs/Program%201.jpg',
-      '/associative%20projects/FREAKS/events%20and%20designs/Program%202.jpg',
-      '/associative%20projects/FREAKS/events%20and%20designs/TICKET%20FINAL.jpg'
+      '/sitewebmedia/associative%20projects/FREAKS/events%20and%20designs/affiche_gaming_in_metaverse.png',
+      '/sitewebmedia/associative%20projects/FREAKS/events%20and%20designs/affiche_gaming_in_metaverse_program.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/events%20and%20designs/affiche_gaming_in_metaverse_program2.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/events%20and%20designs/affiche_gaming_week.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/events%20and%20designs/affiche_recrutement.png',
+      '/sitewebmedia/associative%20projects/FREAKS/events%20and%20designs/aff_tournoi_valo.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/events%20and%20designs/aff_tournoi_zlol.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/events%20and%20designs/banderole_gaming_freaks.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/events%20and%20designs/event_film.jpg',
+      '/sitewebmedia/associative%20projects/FREAKS/events%20and%20designs/logo_section.png',
+      '/sitewebmedia/associative%20projects/FREAKS/events%20and%20designs/sm_post.jpg'
     ]
   }
 ];
@@ -148,7 +138,7 @@ const GamingFreaksProjectPage = () => {
               <div className="mb-10 grid grid-cols-1 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] gap-8 items-center">
                 <div className="rounded-2xl p-8 bg-black/40 border border-[#2f2f2f]">
                   <img
-                    src="/associative%20projects/FREAKS/log%20blanc.png"
+                    src="/sitewebmedia/associative%20projects/FREAKS/log%20blanc.png"
                     alt="EPI Gaming Freaks logo"
                     className="w-full max-w-[320px] mx-auto h-auto object-contain"
                   />
@@ -281,7 +271,7 @@ const GamingFreaksProjectPage = () => {
 
                         {totalImages > 1 && (
 
-                          <div className="flex items-center justify-center gap-2 overflow-x-auto pb-1 hide-scrollbar">
+                          <div className="flex items-center justify-center gap-2 flex-wrap pb-1">
                             {section.images.map((image, index) => (
                               <button
                                 key={`${section.key}-thumb-${image}`}

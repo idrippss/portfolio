@@ -8,14 +8,14 @@ import Footer from '@/components/Footer.jsx';
 import { getProjectImages } from '@/lib/mediaManifest.js';
 
 const galleryImages = getProjectImages('dcf', [
-  '/freelanceprojects/dcf/IMG_8752.jpg',
-  '/freelanceprojects/dcf/IMG_8790.jpg',
-  '/freelanceprojects/dcf/IMG_8888.jpg',
-  '/freelanceprojects/dcf/IMG_8892.jpg',
-  '/freelanceprojects/dcf/IMG_8934.jpg',
-  '/freelanceprojects/dcf/IMG_9193.jpg',
-  '/freelanceprojects/dcf/IMG_8896.jpg',
-  '/freelanceprojects/dcf/IMG_9311.png'
+  '/sitewebmedia/freelanceprojects/dcf/IMG_8752.jpg',
+  '/sitewebmedia/freelanceprojects/dcf/IMG_8790.jpg',
+  '/sitewebmedia/freelanceprojects/dcf/IMG_8888.jpg',
+  '/sitewebmedia/freelanceprojects/dcf/IMG_8892.jpg',
+  '/sitewebmedia/freelanceprojects/dcf/IMG_8934.jpg',
+  '/sitewebmedia/freelanceprojects/dcf/IMG_9193.jpg',
+  '/sitewebmedia/freelanceprojects/dcf/IMG_8896.jpg',
+  '/sitewebmedia/freelanceprojects/dcf/IMG_9311.png'
 ]);
 
 const DcfProjectPage = () => {
@@ -64,7 +64,7 @@ const DcfProjectPage = () => {
                 <div className="space-y-6">
                   <div className="rounded-xl p-2">
                     <img
-                      src="/freelanceprojects/dcf/dcf_logo.png"
+                      src="/sitewebmedia/freelanceprojects/dcf/dcf_logo.png"
                       alt="Djerba Chess Festival logo"
                       className="w-full h-auto object-contain"
                     />
@@ -142,7 +142,7 @@ const DcfProjectPage = () => {
                     ))}
                   </div>
 
-                  <div className="flex items-center justify-center gap-2 overflow-x-auto pb-1 hide-scrollbar">
+                  <div className="flex items-center justify-center gap-2 flex-wrap pb-1">
                     {galleryImages.map((image, index) => (
                       <button
                         key={image}

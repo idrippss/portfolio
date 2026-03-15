@@ -8,13 +8,13 @@ import Footer from '@/components/Footer.jsx';
 import { getProjectImages } from '@/lib/mediaManifest.js';
 
 const galleryImages = getProjectImages('eterno', [
-  '/freelanceprojects/eterno/1.jpg',
-  '/freelanceprojects/eterno/2.jpg',
-  '/freelanceprojects/eterno/3.jpg',
-  '/freelanceprojects/eterno/4.jpg',
-  '/freelanceprojects/eterno/IMG_1488.jpg',
-  '/freelanceprojects/eterno/IMG_1497.jpg',
-  '/freelanceprojects/eterno/IMG_1519.jpg'
+  '/sitewebmedia/freelanceprojects/eterno/1.jpg',
+  '/sitewebmedia/freelanceprojects/eterno/2.jpg',
+  '/sitewebmedia/freelanceprojects/eterno/3.jpg',
+  '/sitewebmedia/freelanceprojects/eterno/4.jpg',
+  '/sitewebmedia/freelanceprojects/eterno/IMG_1488.jpg',
+  '/sitewebmedia/freelanceprojects/eterno/IMG_1497.jpg',
+  '/sitewebmedia/freelanceprojects/eterno/IMG_1519.jpg'
 ]);
 
 const EternoProjectPage = () => {
@@ -63,7 +63,7 @@ const EternoProjectPage = () => {
                 <div className="space-y-6">
                   <div className="rounded-xl p-2">
                     <img
-                      src="/freelanceprojects/eterno/eterno_logo.png"
+                      src="/sitewebmedia/freelanceprojects/eterno/eterno_logo.png"
                       alt="Eterno Fratelli logo"
                       className="w-full h-auto object-contain"
                     />
@@ -129,7 +129,7 @@ const EternoProjectPage = () => {
                     ))}
                   </div>
 
-                  <div className="flex items-center justify-center gap-2 overflow-x-auto pb-1 hide-scrollbar">
+                  <div className="flex items-center justify-center gap-2 flex-wrap pb-1">
                     {galleryImages.map((image, index) => (
                       <button
                         key={image}

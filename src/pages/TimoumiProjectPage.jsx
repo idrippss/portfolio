@@ -8,10 +8,10 @@ import Footer from '@/components/Footer.jsx';
 import { getProjectImages } from '@/lib/mediaManifest.js';
 
 const galleryImages = getProjectImages('timoumi_jewellery', [
-  '/freelanceprojects/timoumi_jewellery/2.jpg',
-  '/freelanceprojects/timoumi_jewellery/3.jpg',
-  '/freelanceprojects/timoumi_jewellery/7.jpg',
-  '/freelanceprojects/timoumi_jewellery/IMG_1127.jpg'
+  '/sitewebmedia/freelanceprojects/timoumi_jewellery/2.jpg',
+  '/sitewebmedia/freelanceprojects/timoumi_jewellery/3.jpg',
+  '/sitewebmedia/freelanceprojects/timoumi_jewellery/7.jpg',
+  '/sitewebmedia/freelanceprojects/timoumi_jewellery/IMG_1127.jpg'
 ]);
 
 const TimoumiProjectPage = () => {
@@ -60,7 +60,7 @@ const TimoumiProjectPage = () => {
                 <div className="space-y-6">
                   <div className="rounded-xl p-2">
                     <img
-                      src="/freelanceprojects/timoumi_jewellery/timoumi_logo.png"
+                      src="/sitewebmedia/freelanceprojects/timoumi_jewellery/timoumi_logo.png"
                       alt="Timoumi Jewelry logo"
                       className="w-full h-auto object-contain"
                     />
@@ -149,7 +149,7 @@ const TimoumiProjectPage = () => {
                     ))}
                   </div>
 
-                  <div className="flex items-center justify-center gap-2 overflow-x-auto pb-1 hide-scrollbar">
+                  <div className="flex items-center justify-center gap-2 flex-wrap pb-1">
                     {galleryImages.map((image, index) => (
                       <button
                         key={image}

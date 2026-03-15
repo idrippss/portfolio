@@ -7,18 +7,20 @@ import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 import { getProjectImages, getProjectVideos } from '@/lib/mediaManifest.js';
 
+const logoUrl = '/sitewebmedia/freelanceprojects/AH/AH%20AUTO%20LOGO.png';
+
 const reels = getProjectVideos('AH', [
   {
     title: 'AH Auto - Full detailing',
-    videoUrl: '/freelanceprojects/AH/AH%20Auto%20-%20Full%20detailing.mov'
+    videoUrl: '/sitewebmedia/freelanceprojects/AH/AH%20Auto%20-%20Full%20detailing.mov'
   },
   {
     title: 'AH Auto - Recharge Climatiseur',
-    videoUrl: '/freelanceprojects/AH/AH%20Auto%20-%20Recharge%20Climatiseur.mov'
+    videoUrl: '/sitewebmedia/freelanceprojects/AH/AH%20Auto%20-%20Recharge%20Climatiseur.mov'
   },
   {
     title: 'AH Auto - Vidange',
-    videoUrl: '/freelanceprojects/AH/AH%20Auto%20-%20Vidange.MOV'
+    videoUrl: '/sitewebmedia/freelanceprojects/AH/AH%20Auto%20-%20Vidange.MOV'
   }
 ]).map((video, index) => ({
   id: index + 1,
@@ -26,9 +28,9 @@ const reels = getProjectVideos('AH', [
 }));
 
 const galleryImages = getProjectImages('AH', [
-  '/freelanceprojects/AH/we%20are%20open2.png',
-  '/freelanceprojects/AH/COMING%20SOON%20POST%20final.png',
-  '/freelanceprojects/AH/POST%20ARTICLES%201.png'
+  '/sitewebmedia/freelanceprojects/AH/we%20are%20open2.png',
+  '/sitewebmedia/freelanceprojects/AH/COMING%20SOON%20POST%20final.png',
+  '/sitewebmedia/freelanceprojects/AH/POST%20ARTICLES%201.png'
 ]);
 
 const AhProjectPage = () => {
@@ -77,7 +79,7 @@ const AhProjectPage = () => {
                 <div className="flex flex-col sm:flex-row gap-8 items-start">
                   <div className="shrink-0 p-2">
                     <img
-                      src="/freelanceprojects/AH/AH%20AUTO%20LOGO.png"
+                      src={logoUrl}
                       alt="AH Auto Detailing logo"
                       className="w-48 md:w-64 h-auto object-contain"
                     />

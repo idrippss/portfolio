@@ -46,21 +46,14 @@ const ReelCard = ({ reel, onClick }) => {
 };
 
 const reelsData = [
-  { id: 1,  videoUrl: '/video/ah.mov',               title: 'ah' },
-  { id: 2,  videoUrl: '/video/ahh%20tesla.mov',       title: 'video ah' },
-  { id: 3,  videoUrl: '/video/azha.mov',              title: 'azha' },
-  { id: 4,  videoUrl: '/video/golden%20fries.mov',    title: 'golden fries' },
-  { id: 5,  videoUrl: '/video/golden.mov',            title: 'golden' },
-  { id: 6,  videoUrl: '/video/istya.mov',             title: 'istya' },
-  { id: 7,  videoUrl: '/video/mr%20bout.mov',         title: 'mr bout' },
-  { id: 8,  videoUrl: '/video/neff.mov',              title: 'neff' },
-  { id: 9,  videoUrl: '/video/neffertiti.mov',        title: 'neffertiti' },
-  { id: 10, videoUrl: '/video/rando.mov',             title: 'rando' },
-  { id: 11, videoUrl: '/video/robinson.mov',          title: 'robinson' },
-  { id: 12, videoUrl: '/video/soutenance%20s.mov',    title: 'soutenance s' },
-  { id: 13, videoUrl: '/video/soutenance%20z.mov',    title: 'soutenance z' },
-  { id: 14, videoUrl: '/video/tsi.mov',               title: 'tsi' },
-  { id: 15, videoUrl: '/video/vamos.mov',             title: 'vamos' },
+  { id: 1, videoUrl: '/sitewebmedia/video/ah.mp4', title: 'ah' },
+  { id: 2, videoUrl: '/sitewebmedia/video/video_AH.mp4', title: 'video ah' },
+  { id: 3, videoUrl: '/sitewebmedia/video/azha.mov', title: 'azha' },
+  { id: 4, videoUrl: '/sitewebmedia/video/golden%20fries.mov', title: 'golden fries' },
+  { id: 5, videoUrl: '/sitewebmedia/video/golden.mov', title: 'golden' },
+  { id: 6, videoUrl: '/sitewebmedia/video/neff.mp4', title: 'neff' },
+  { id: 7, videoUrl: '/sitewebmedia/video/neffertiti.mp4', title: 'neffertiti' },
+  { id: 8, videoUrl: '/sitewebmedia/video/rando.mp4', title: 'rando' }
 ];
 
 const ReelsSection = () => {

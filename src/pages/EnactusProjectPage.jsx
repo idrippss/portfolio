@@ -14,10 +14,10 @@ const sections = [
     title: 'Badges',
     description: 'Identity and role badge designs created for team structure and member presentation.',
     images: [
-      '/associative%20projects/enactus/badges/badge%20org.jpg',
-      '/associative%20projects/enactus/badges/fin%20ik.jpg',
-      '/associative%20projects/enactus/badges/fin%20rahma.jpg',
-      '/associative%20projects/enactus/badges/fin%20roue.jpg'
+      '/sitewebmedia/associative%20projects/enactus/badges/badge1.jpg',
+      '/sitewebmedia/associative%20projects/enactus/badges/badge2.jpg',
+      '/sitewebmedia/associative%20projects/enactus/badges/badge3.jpg',
+      '/sitewebmedia/associative%20projects/enactus/badges/badge4.jpg'
     ]
   },
   {
@@ -25,10 +25,10 @@ const sections = [
     title: 'Certificates',
     description: 'Recognition and appreciation certificates designed for speakers, contributors, and organizers.',
     images: [
-      '/associative%20projects/enactus/certificates/certificate%20of%20appreciation.jpg',
-      '/associative%20projects/enactus/certificates/certificate%20of%20appreciation2.jpg',
-      '/associative%20projects/enactus/certificates/certificate%20of%20appreciation3.jpg',
-      '/associative%20projects/enactus/certificates/certificateORG.jpg'
+      '/sitewebmedia/associative%20projects/enactus/certificates/certif1.jpg',
+      '/sitewebmedia/associative%20projects/enactus/certificates/certif2.jpg',
+      '/sitewebmedia/associative%20projects/enactus/certificates/certif3.jpg',
+      '/sitewebmedia/associative%20projects/enactus/certificates/certif4.jpg'
     ]
   },
   {
@@ -36,8 +36,8 @@ const sections = [
     title: 'Group Photos',
     description: 'Team and event memories documenting the people, moments, and atmosphere behind each initiative.',
     images: [
-      '/associative%20projects/enactus/group%20photos/IMG_7756.JPG',
-      '/associative%20projects/enactus/group%20photos/IMG_9622.JPG'
+      '/sitewebmedia/associative%20projects/enactus/group%20photos/grp_photo1a.JPG',
+      '/sitewebmedia/associative%20projects/enactus/group%20photos/grp_photo3.JPG'
     ]
   },
   {
@@ -46,13 +46,13 @@ const sections = [
     description:
       'Regional teams attended hands-on workshops and pitched their projects during the challenge. In this event, I served as Organizer and Media Manager, handling coordination and visual communication assets before and during the competition.',
     images: [
-      '/associative%20projects/enactus/launchpad/AFF.jpg',
-      '/associative%20projects/enactus/launchpad/COVER%20EVENT%20FINAL.jpg',
-      '/associative%20projects/enactus/launchpad/ORGA.jpg',
-      '/associative%20projects/enactus/launchpad/PARTI.jpg',
-      '/associative%20projects/enactus/launchpad/PHOTO%20DE%20PROFIL.jpg',
-      '/associative%20projects/enactus/launchpad/pitching.jpg',
-      '/associative%20projects/enactus/launchpad/TRAIN.jpg'
+      '/sitewebmedia/associative%20projects/enactus/launchpad/launchpad_cover.jpg',
+      '/sitewebmedia/associative%20projects/enactus/launchpad/launchpad_poster.jpg',
+      '/sitewebmedia/associative%20projects/enactus/launchpad/launchpad_pdp.jpg',
+      '/sitewebmedia/associative%20projects/enactus/launchpad/launchpad_badge_part.jpg',
+      '/sitewebmedia/associative%20projects/enactus/launchpad/launchpad_badge_trainer.jpg',
+      '/sitewebmedia/associative%20projects/enactus/launchpad/launchpad_badge%20_org.jpg',
+      '/sitewebmedia/associative%20projects/enactus/launchpad/launchpad_certif.jpg'
     ]
   },
   {
@@ -60,10 +60,10 @@ const sections = [
     title: 'Posters',
     description: 'Promotional posters developed for recruitment, event announcements, and educational campaigns.',
     images: [
-      '/associative%20projects/enactus/posters/AFF2F.jpg',
-      '/associative%20projects/enactus/posters/affiche%20FINALEEE.jpg',
-      '/associative%20projects/enactus/posters/PROGRAMMEFINAllllllllllllllllllllllllllllllll.jpg',
-      '/associative%20projects/enactus/posters/Enactus%20journ%C3%A9e%20d%27integration.png'
+      '/sitewebmedia/associative%20projects/enactus/posters/aff_enactus1.jpg',
+      '/sitewebmedia/associative%20projects/enactus/posters/aff_enactus2.jpg',
+      '/sitewebmedia/associative%20projects/enactus/posters/aff_enactus3.jpg',
+      '/sitewebmedia/associative%20projects/enactus/posters/aff_enactus4.png'
     ]
   },
   {
@@ -71,10 +71,10 @@ const sections = [
     title: 'Project Work',
     description: 'Academic and entrepreneurial visual supports prepared for internal presentations and workshops.',
     images: [
-      '/associative%20projects/enactus/project%20work/DIAP1.jpg',
-      '/associative%20projects/enactus/project%20work/DIAP2.jpg',
-      '/associative%20projects/enactus/project%20work/DIAP3.jpg',
-      '/associative%20projects/enactus/project%20work/DIAP4.jpg'
+      '/sitewebmedia/associative%20projects/enactus/project%20work/DIAP1.jpg',
+      '/sitewebmedia/associative%20projects/enactus/project%20work/DIAP2.jpg',
+      '/sitewebmedia/associative%20projects/enactus/project%20work/DIAP3.jpg',
+      '/sitewebmedia/associative%20projects/enactus/project%20work/DIAP4.jpg'
     ]
   },
   {
@@ -82,33 +82,31 @@ const sections = [
     title: 'Social Media',
     description: 'Short-form visual storytelling and branded content built for campaign engagement and team visibility.',
     images: [
-      '/associative%20projects/enactus/social%20media/1.jpg',
-      '/associative%20projects/enactus/social%20media/2.jpg',
-      '/associative%20projects/enactus/social%20media/3.jpg',
-      '/associative%20projects/enactus/social%20media/4.jpg',
-      '/associative%20projects/enactus/social%20media/5.jpg',
-      '/associative%20projects/enactus/social%20media/6.jpg',
-      '/associative%20projects/enactus/social%20media/7.jpg',
-      '/associative%20projects/enactus/social%20media/8.jpg',
-      '/associative%20projects/enactus/social%20media/9.jpg',
-      '/associative%20projects/enactus/social%20media/10.jpg',
-      '/associative%20projects/enactus/social%20media/asma.jpg',
-      '/associative%20projects/enactus/social%20media/azouzi.jpg',
-      '/associative%20projects/enactus/social%20media/board2.jpg',
-      '/associative%20projects/enactus/social%20media/eya.jpg',
-      '/associative%20projects/enactus/social%20media/idriss.jpg',
-      '/associative%20projects/enactus/social%20media/THUMBNAIL.jpg',
-      '/associative%20projects/enactus/social%20media/insta%20post.png',
-      '/associative%20projects/enactus/social%20media/we%20are%20hiringg.jpg',
-      '/associative%20projects/enactus/social%20media/molka.jpg',
-      '/associative%20projects/enactus/social%20media/psd%20aziz.jpg',
-      '/associative%20projects/enactus/social%20media/psd%20ghazi.jpg',
-      '/associative%20projects/enactus/social%20media/psd%20KOUSSAY.jpg',
-      '/associative%20projects/enactus/social%20media/psd%20KOUSSAY%20CERTIF.jpg',
-      '/associative%20projects/enactus/social%20media/psd%20Seif.jpg',
-      '/associative%20projects/enactus/social%20media/roua.jpg',
-      '/associative%20projects/enactus/social%20media/salma.jpg',
-      '/associative%20projects/enactus/social%20media/SEIF%20CERTIF.jpg'
+      '/sitewebmedia/associative%20projects/enactus/social%20media/1.1.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/1.2.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/1.3.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/1.4.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/1.5.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/2.1.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/2.2.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/2.3.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/2.4.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/3.1.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/3.2.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/3.3.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/3.4.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/3.5.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/3.6.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/3.7.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/affiche_insta_post.png',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/asma.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/azouzi.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/board.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/board_eya.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/board_idriss.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/board_roua.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/board_salma.jpg',
+      '/sitewebmedia/associative%20projects/enactus/social%20media/board_zeineb.jpg'
     ]
   }
 ];
@@ -182,7 +180,7 @@ const EnactusProjectPage = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] gap-8 items-center">
                   <div className="rounded-2xl p-8">
                     <img
-                      src="/associative%20projects/enactus/logo%20enactus%20blanc.png"
+                      src="/sitewebmedia/associative%20projects/enactus/logo_enactus_blanc.png"
                       alt="Enactus EPI Sousse logo"
                       className="w-full h-auto object-contain"
                     />
@@ -316,7 +314,7 @@ const EnactusProjectPage = () => {
                         </div>
 
                         {section.key !== 'social-media' && (
-                          <div className="flex items-center justify-center gap-2 overflow-x-auto pb-1 hide-scrollbar">
+                          <div className="flex items-center justify-center gap-2 flex-wrap pb-1">
                             {section.images.map((image, index) => (
                               <button
                                 key={`${section.key}-thumb-${image}`}

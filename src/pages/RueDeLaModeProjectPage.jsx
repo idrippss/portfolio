@@ -8,14 +8,14 @@ import Footer from '@/components/Footer.jsx';
 import { getProjectImages, getProjectVideos } from '@/lib/mediaManifest.js';
 
 const allImages = getProjectImages('13 RUE DE LA MODE', [
-  '/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8769.jpg',
-  '/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8777.jpg',
-  '/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8786.jpg',
-  '/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8797.jpg',
-  '/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8810.jpg',
-  '/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8812.png',
-  '/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8818.jpg',
-  '/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8823.jpg'
+  '/sitewebmedia/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8769.jpg',
+  '/sitewebmedia/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8777.jpg',
+  '/sitewebmedia/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8786.jpg',
+  '/sitewebmedia/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8797.jpg',
+  '/sitewebmedia/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8810.jpg',
+  '/sitewebmedia/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8812.png',
+  '/sitewebmedia/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8818.jpg',
+  '/sitewebmedia/freelanceprojects/13%20RUE%20DE%20LA%20MODE/IMG_8823.jpg'
 ]);
 
 const galleryImages = allImages.slice(0, 6);
@@ -23,7 +23,7 @@ const galleryImages = allImages.slice(0, 6);
 const campaignVideo = getProjectVideos('13 RUE DE LA MODE', [
   {
     title: '13 Rue de la Mode campaign reel',
-    videoUrl: '/freelanceprojects/13%20RUE%20DE%20LA%20MODE/13%20chleyek.MOV'
+    videoUrl: '/sitewebmedia/freelanceprojects/13%20RUE%20DE%20LA%20MODE/13%20chleyek.MOV'
   }
 ])[0];
 
@@ -79,7 +79,7 @@ const RueDeLaModeProjectPage = () => {
                       className="rounded-xl border border-[#333] overflow-hidden bg-white p-6 hover:border-[#00d4ff] transition-colors"
                     >
                       <img
-                        src="/freelanceprojects/13%20RUE%20DE%20LA%20MODE/13%20RUE%20DE%20LA%20MODE%20LOGO%20.png"
+                        src="/sitewebmedia/freelanceprojects/13%20RUE%20DE%20LA%20MODE/13%20RUE%20DE%20LA%20MODE%20LOGO%20.png"
                         alt="13 Rue de la Mode logo"
                         className="w-full h-auto object-contain"
                       />
@@ -172,7 +172,7 @@ const RueDeLaModeProjectPage = () => {
                       ))}
                     </div>
 
-                    <div className="flex items-center justify-center gap-2 overflow-x-auto pb-1 hide-scrollbar">
+                    <div className="flex items-center justify-center gap-2 flex-wrap pb-1">
                       {galleryImages.map((image, index) => (
                         <button
                           key={image}

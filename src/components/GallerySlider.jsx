@@ -6,7 +6,7 @@ import { getGalleryImages } from '@/lib/mediaManifest.js';
 
 const slides = getGalleryImages().map((item, index) => ({
   image: item.url,
-  title: `${index + 1}`
+  alt: `Gallery image ${index + 1}`
 }));
 
 const variants = {
@@ -66,7 +66,6 @@ const GallerySlider = () => {
           className="mb-8 md:mb-10 text-center"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">Gallery</h2>
-          <p className="text-gray-400 text-sm md:text-base">A curated selection of my finest visual work.</p>
         </motion.div>
 
         <div 
@@ -112,18 +111,10 @@ const GallerySlider = () => {
               >
                 <img
                   src={slides[imageIndex].image}
-                  alt={slides[imageIndex].title}
+                  alt={slides[imageIndex].alt}
                   className="w-full h-full object-cover"
                   draggable="false"
                 />
-                {/* Title Overlay */}
-                <div className="absolute bottom-0 left-0 right-0 p-4 md:p-6 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
-                  <div className="inline-block bg-black/50 backdrop-blur-md px-4 py-2 md:px-6 md:py-3 rounded-lg border border-white/10">
-                    <h3 className="text-white text-[16px] md:text-[20px] font-medium tracking-wide">
-                      {slides[imageIndex].title}
-                    </h3>
-                  </div>
-                </div>
               </motion.div>
             </AnimatePresence>
           </div>

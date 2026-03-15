@@ -59,7 +59,7 @@ function titleFromFileName(fileName) {
 }
 
 function getProjectMedia() {
-  const projectsRoot = path.join(publicDir, 'freelanceprojects');
+  const projectsRoot = path.join(publicDir, 'sitewebmedia', 'freelanceprojects');
   const projectMedia = {};
 
   if (!fs.existsSync(projectsRoot)) return projectMedia;
@@ -91,7 +91,7 @@ function getProjectMedia() {
 }
 
 function getHighlights() {
-  const highlightsRoot = path.join(publicDir, 'image', 'highlights');
+  const highlightsRoot = path.join(publicDir, 'sitewebmedia', 'highlights');
   const categories = [];
 
   if (!fs.existsSync(highlightsRoot)) return categories;
@@ -121,7 +121,7 @@ function getHighlights() {
 
 function generateMediaManifest() {
   const heroImages = getImageFiles(path.join(publicDir, 'image', 'hero')).map(toWebPath);
-  const galleryImages = getImageFiles(path.join(publicDir, 'image', 'gallery')).map(toWebPath);
+  const galleryImages = getImageFiles(path.join(publicDir, 'sitewebmedia', 'gallery')).map(toWebPath);
   const highlights = getHighlights();
   const projects = getProjectMedia();
 

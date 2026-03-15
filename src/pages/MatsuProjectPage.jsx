@@ -8,11 +8,11 @@ import Footer from '@/components/Footer.jsx';
 import { getProjectImages } from '@/lib/mediaManifest.js';
 
 const galleryImages = getProjectImages('matsu', [
-  '/freelanceprojects/matsu/IMG_1249.jpg',
-  '/freelanceprojects/matsu/IMG_1281.jpg',
-  '/freelanceprojects/matsu/IMG_1293.jpg',
-  '/freelanceprojects/matsu/IMG_1352.jpg',
-  '/freelanceprojects/matsu/IMG_1367.jpg'
+  '/sitewebmedia/freelanceprojects/matsu/IMG_1249.jpg',
+  '/sitewebmedia/freelanceprojects/matsu/IMG_1281.jpg',
+  '/sitewebmedia/freelanceprojects/matsu/IMG_1293.jpg',
+  '/sitewebmedia/freelanceprojects/matsu/IMG_1352.jpg',
+  '/sitewebmedia/freelanceprojects/matsu/IMG_1367.jpg'
 ]);
 
 const MatsuProjectPage = () => {
@@ -61,7 +61,7 @@ const MatsuProjectPage = () => {
                 <div className="space-y-6">
                   <div className="rounded-xl p-2">
                     <img
-                      src="/freelanceprojects/matsu/matsu_logo.png"
+                      src="/sitewebmedia/freelanceprojects/matsu/matsu_logo.png"
                       alt="Matsu Be Stylise logo"
                       className="w-full h-auto object-contain"
                     />
@@ -125,7 +125,7 @@ const MatsuProjectPage = () => {
                     ))}
                   </div>
 
-                  <div className="flex items-center justify-center gap-2 overflow-x-auto pb-1 hide-scrollbar">
+                  <div className="flex items-center justify-center gap-2 flex-wrap pb-1">
                     {galleryImages.map((image, index) => (
                       <button
                         key={image}
