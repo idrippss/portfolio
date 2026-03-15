@@ -34,11 +34,11 @@ const Footer = () => {
             <h3 className="text-xl font-semibold text-white mb-4">Get In Touch</h3>
             <div className="space-y-3">
               <a
-                href="mailto:idriss@example.com"
+                href="mailto:idriss.kacem@yahoo.fr"
                 className="flex items-center gap-3 text-gray-400 hover:text-[#00d4ff] transition-colors group"
               >
                 <Mail className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                <span>idriss@example.com</span>
+                <span>idriss.kacem@yahoo.fr</span>
               </a>
               <a
                 href="https://www.linkedin.com/in/idrisskacem/"
