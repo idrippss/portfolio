@@ -108,7 +108,7 @@ const Footer = () => {
               onClick={() => scrollToSection('contact')}
               className="px-8 py-4 bg-gradient-to-r from-[#00d4ff] to-[#a855f7] text-white font-semibold rounded-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
             >
-              Work With Me
+              Contact
             </button>
           </motion.div>
         </div>
