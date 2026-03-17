@@ -55,7 +55,8 @@ const fallbackHighlights = [
       '/sitewebmedia/highlights/nature/IMG_1373.jpg',
       '/sitewebmedia/highlights/nature/IMG_4404.jpg',
       '/sitewebmedia/highlights/nature/IMG_6164.jpg',
-      '/sitewebmedia/highlights/nature/WhatsApp%20Image%202021-02-07%20at%2010.19.15%20PM%20(3).jpeg'
+      '/sitewebmedia/highlights/nature/WhatsApp%20Image%202021-02-07%20at%2010.19.15%20PM%20(3).jpeg',
+      '/sitewebmedia/highlights/nature/IMG_0015.jpg'
     ]
   },
   {
@@ -79,7 +80,8 @@ const fallbackHighlights = [
       '/sitewebmedia/highlights/paris/IMG_4738.jpg',
       '/sitewebmedia/highlights/paris/IMG_4739.jpg',
       '/sitewebmedia/highlights/paris/IMG_4740.jpg',
-      '/sitewebmedia/highlights/paris/IMG_4741.jpg'
+      '/sitewebmedia/highlights/paris/IMG_4741.jpg',
+      '/sitewebmedia/highlights/paris/IMG_0226.jpg'
     ]
   },
   {

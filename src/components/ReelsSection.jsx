@@ -54,7 +54,8 @@ const reelsData = [
   { id: 6, videoUrl: '/sitewebmedia/video/neffertiti.mp4', title: 'neffertiti' },
   { id: 7, videoUrl: '/sitewebmedia/video/rando.mp4', title: 'rando' },
   { id: 8, videoUrl: '/sitewebmedia/video/vamos.mp4', title: 'vamos' },
-  { id: 9, videoUrl: '/sitewebmedia/video/soutenance_z.mp4', title: 'soutenance z' }
+  { id: 10, videoUrl: '/sitewebmedia/video/soutenance_z.mp4', title: 'soutenance z' },
+  { id: 11, videoUrl: '/sitewebmedia/video/IOS.mp4', title: 'IOS' }
 ];
 
 const ReelsSection = () => {
