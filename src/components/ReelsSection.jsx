@@ -49,13 +49,12 @@ const reelsData = [
   { id: 1, videoUrl: '/sitewebmedia/video/ah.mp4', title: 'ah' },
   { id: 2, videoUrl: '/sitewebmedia/video/video_AH.mp4', title: 'video ah' },
   { id: 3, videoUrl: '/sitewebmedia/video/azha.mp4', title: 'azha' },
-  { id: 4, videoUrl: '/sitewebmedia/video/golden_fries.mp4', title: 'golden fries' },
-  { id: 5, videoUrl: '/sitewebmedia/video/golden.mp4', title: 'golden' },
-  { id: 6, videoUrl: '/sitewebmedia/video/neff.mp4', title: 'neff' },
-  { id: 7, videoUrl: '/sitewebmedia/video/neffertiti.mp4', title: 'neffertiti' },
-  { id: 8, videoUrl: '/sitewebmedia/video/rando.mp4', title: 'rando' },
-  { id: 9, videoUrl: '/sitewebmedia/video/vamos.mp4', title: 'vamos' },
-  { id: 10, videoUrl: '/sitewebmedia/video/soutenance_z.mp4', title: 'soutenance z' }
+  { id: 4, videoUrl: '/sitewebmedia/video/golden.mp4', title: 'golden' },
+  { id: 5, videoUrl: '/sitewebmedia/video/neff.mp4', title: 'neff' },
+  { id: 6, videoUrl: '/sitewebmedia/video/neffertiti.mp4', title: 'neffertiti' },
+  { id: 7, videoUrl: '/sitewebmedia/video/rando.mp4', title: 'rando' },
+  { id: 8, videoUrl: '/sitewebmedia/video/vamos.mp4', title: 'vamos' },
+  { id: 9, videoUrl: '/sitewebmedia/video/soutenance_z.mp4', title: 'soutenance z' }
 ];
 
 const ReelsSection = () => {

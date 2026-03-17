@@ -34,7 +34,6 @@ const sections = [
       '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/35.jpg',
       '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/36.jpg',
       '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/37.jpg',
-      '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_pictures/40.jpg',
       '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_design/aff_fin.jpg',
       '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_design/badge_jam.jpg',
       '/sitewebmedia/associative%20projects/FREAKS/ggj/ggj_design/badge_or.jpg',
